@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage -->
+  <url>
+    <loc>https://dremoy.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://dremoy.com/bn/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- IT Training -->
+  <url>
+    <loc>https://dremoy.com/it-training.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- E-commerce Solutions -->
+  <url>
+    <loc>https://dremoy.com/ecommerce-solutions.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/ecommerce-solutions.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/ecommerce-solutions.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/ecommerce-solutions.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dremoy.com/bn/ecommerce-solutions.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/ecommerce-solutions.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/ecommerce-solutions.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/ecommerce-solutions.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- School Management -->
+  <url>
+    <loc>https://dremoy.com/smart-school-management.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/smart-school-management.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/smart-school-management.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/smart-school-management.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dremoy.com/bn/smart-school-management.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/smart-school-management.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/smart-school-management.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/smart-school-management.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Digital Services -->
+  <url>
+    <loc>https://dremoy.com/digital-services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/digital-services.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/digital-services.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/digital-services.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dremoy.com/bn/digital-services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/digital-services.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/digital-services.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/digital-services.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog Hub -->
+  <url>
+    <loc>https://dremoy.com/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/blog.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/blog.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/blog.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dremoy.com/bn/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/blog.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/blog.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/blog.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog Post 1: AI Automation -->
+  <url>
+    <loc>https://dremoy.com/ai-automation-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/ai-automation-2026.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/ai-automation-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/ai-automation-2026.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dremoy.com/bn/ai-automation-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/ai-automation-2026.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/ai-automation-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/ai-automation-2026.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog Post 2: Digital Partner -->
+  <url>
+    <loc>https://dremoy.com/complete-digital-it-partner-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/complete-digital-it-partner-2026.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/complete-digital-it-partner-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/complete-digital-it-partner-2026.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dremoy.com/bn/complete-digital-it-partner-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/complete-digital-it-partner-2026.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/complete-digital-it-partner-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/complete-digital-it-partner-2026.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog Post 3: E-commerce Ecosystem -->
+  <url>
+    <loc>https://dremoy.com/complete-ecommerce-ecosystem-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/complete-ecommerce-ecosystem-2026.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/complete-ecommerce-ecosystem-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/complete-ecommerce-ecosystem-2026.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dremoy.com/bn/complete-ecommerce-ecosystem-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/complete-ecommerce-ecosystem-2026.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/complete-ecommerce-ecosystem-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/complete-ecommerce-ecosystem-2026.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog Post 4: Future of IT Training -->
+  <url>
+    <loc>https://dremoy.com/future-of-it-training.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/future-of-it-training.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/future-of-it-training.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/future-of-it-training.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dremoy.com/bn/future-of-it-training.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/future-of-it-training.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/future-of-it-training.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/future-of-it-training.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog Post 5: Conversion Rate -->
+  <url>
+    <loc>https://dremoy.com/increase-online-store-conversion-rate.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/increase-online-store-conversion-rate.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/increase-online-store-conversion-rate.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/increase-online-store-conversion-rate.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dremoy.com/bn/increase-online-store-conversion-rate.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/increase-online-store-conversion-rate.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/increase-online-store-conversion-rate.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/increase-online-store-conversion-rate.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog Post 6: Meta Ads -->
+  <url>
+    <loc>https://dremoy.com/meta-ads-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/meta-ads-2026.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/meta-ads-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/meta-ads-2026.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dremoy.com/bn/meta-ads-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/meta-ads-2026.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/meta-ads-2026.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/meta-ads-2026.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog Post 7: Professional SEO -->
+  <url>
+    <loc>https://dremoy.com/professional-seo-for-business.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/professional-seo-for-business.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/professional-seo-for-business.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/professional-seo-for-business.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dremoy.com/bn/professional-seo-for-business.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/professional-seo-for-business.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/professional-seo-for-business.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/professional-seo-for-business.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog Post 8: Smart School Management System -->
+  <url>
+    <loc>https://dremoy.com/smart-school-management-system.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/smart-school-management-system.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/smart-school-management-system.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/smart-school-management-system.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dremoy.com/bn/smart-school-management-system.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dremoy.com/smart-school-management-system.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/smart-school-management-system.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dremoy.com/smart-school-management-system.html" />
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

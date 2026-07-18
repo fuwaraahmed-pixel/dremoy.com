@@ -1,0 +1,1309 @@
+﻿<!DOCTYPE html>
+<html lang="bn" class="scroll-smooth">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X9PFK2062C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-X9PFK2062C');
+    </script>
+    <title>ই-কমার্স ওয়েবসাইট ডেভেলপমেন্ট ও ড্রপশিপিং সলিউশন - ড্রিময় আইটি</title>
+    <meta name="description" content="ড্রিময় আইটির সাথে আপনার ই-কমার্স ব্যবসাকে বড় করুন। আমরা বাংলাদেশে হাই-কনভার্টিং ই-কমার্স ওয়েবসাইট, শপিফাই স্টোর সেটআপ, পেমেন্ট গেটওয়ে এবং ড্রপশিপিং অটোমেশন সেবা প্রদান করি।">
+    <meta name="keywords" content="ই-কমার্স ওয়েবসাইট ডেভেলপমেন্ট বাংলাদেশ, শপিফাই ডেভেলপার বাংলাদেশ, ড্রপশিপিং ব্যবসা বাংলাদেশ, শপিফাই ডেভেলপার বিডি, অনলাইন স্টোর সেটআপ বাংলাদেশ, ড্রিময় ই-কমার্স">
+    <link rel="canonical" href="https://dremoy.com/bn/ecommerce-solutions" />
+    <link rel="alternate" hreflang="en" href="https://dremoy.com/ecommerce-solutions" />
+    <link rel="alternate" hreflang="bn" href="https://dremoy.com/bn/ecommerce-solutions" />
+    <link rel="alternate" hreflang="x-default" href="https://dremoy.com/ecommerce-solutions" />
+
+    <!-- Open Graph / Social Media Tags -->
+    <meta property="og:title" content="ই-কমার্স ওয়েবসাইট ডেভেলপমেন্ট ও ড্রপশিপিং সলিউশন - ড্রিময় আইটি">
+    <meta property="og:description" content="ড্রিময় আইটির সাথে আপনার ই-কমার্স ব্যবসাকে বড় করুন। আমরা বাংলাদেশে হাই-কনভার্টিং ই-কমার্স ওয়েবসাইট, শপিফাই স্টোর সেটআপ, পেমেন্ট গেটওয়ে এবং ড্রপশিপিং অটোমেশন সেবা প্রদান করি।">
+    <meta property="og:image" content="https://dremoy.com/image/Favicon.png">
+    <meta property="og:url" content="https://dremoy.com/ecommerce-solutions">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ই-কমার্স ওয়েবসাইট ডেভেলপমেন্ট ও ড্রপশিপিং সলিউশন - ড্রিময় আইটি">
+    <meta name="twitter:description" content="ড্রিময় আইটির সাথে আপনার ই-কমার্স ব্যবসাকে বড় করুন। আমরা বাংলাদেশে হাই-কনভার্টিং ই-কমার্স ওয়েবসাইট, শপিফাই স্টোর সেটআপ, পেমেন্ট গেটওয়ে এবং ড্রপশিপিং অটোমেশন সেবা প্রদান করি।">
+    <meta name="twitter:image" content="https://dremoy.com/image/Favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/png" href="../image/Favicon.png">
+    <!-- Tailwind and Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8fafc;
+            color: #0f172a;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .lang-bn {
+            font-family: 'Hind Siliguri', sans-serif !important;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.03);
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(59, 130, 246, 0.1);
+            border-color: rgba(59, 130, 246, 0.3);
+        }
+
+        .btn-gradient {
+            background: linear-gradient(to right, #3b82f6, #8b5cf6);
+            transition: all 0.3s ease;
+        }
+
+        .btn-gradient:hover {
+            background: linear-gradient(to right, #2563eb, #7c3aed);
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+        }
+
+        .text-gradient {
+            background: linear-gradient(to right, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Premium Background Animation */
+        .bg-mesh {
+            background-color: #f8fafc;
+            background-image:
+                radial-gradient(at 40% 20%, hsla(228, 100%, 74%, 0.15) 0px, transparent 50%),
+                radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 0.15) 0px, transparent 50%),
+                radial-gradient(at 0% 50%, hsla(355, 100%, 93%, 0.1) 0px, transparent 50%),
+                radial-gradient(at 80% 50%, hsla(340, 100%, 76%, 0.15) 0px, transparent 50%),
+                radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 0.1) 0px, transparent 50%),
+                radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 0.15) 0px, transparent 50%),
+                radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 0.1) 0px, transparent 50%);
+        }
+    </style>
+
+    <!-- Open Graph / Social Media Tags -->
+    <meta property="og:image" content="https://dremoy.com/image/Favicon.png">
+    <meta property="og:url" content="https://dremoy.com/ecommerce-solutions">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://dremoy.com/image/Favicon.png">
+
+    <!-- Schema Markup (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "E-commerce Ecosystem Solutions | Build Your Online Store - Dremoy",
+      "description": "Scale your retail business with Dremoy's high-converting e-commerce ecosystems. Get secure payment gateways, inventory automation, and dropshipping setups.",
+      "url": "https://dremoy.com/ecommerce-solutions",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dremoy",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dremoy.com/image/Favicon.png"
+        }
+      }
+    }
+    </script>
+</head>
+
+<body class="antialiased overflow-x-hidden selection:bg-blue-500 selection:text-white pb-20 md:pb-0 bg-mesh">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 glass border-b border-white/50 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer"
+                    onclick="window.location.href='/'">
+                    <img src="../image/Favicon.png" alt="Dremoy Logo" class="w-10 h-10 object-contain drop-shadow-md" loading="lazy">
+                    <span
+                        class="font-bold text-2xl tracking-tight text-gray-900 font-sans hidden sm:block">Dremoy</span>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="/" data-i18n="navHome"
+                            class="text-gray-600 hover:text-blue-600 transition-colors px-3 py-2 rounded-md text-sm font-bold leading-tight">হোম</a>
+                        <a href="#online-services" data-i18n="navOnlineSrv"
+                            class="text-gray-600 hover:text-blue-600 transition-colors px-3 py-2 rounded-md text-sm font-bold leading-tight">সার্ভিসেস</a>
+                        <a href="#roadmap" data-i18n="navRoadmap"
+                            class="text-gray-600 hover:text-blue-600 transition-colors px-3 py-2 rounded-md text-sm font-bold leading-tight">রোডম্যাপ</a>
+                        <a href="#offline-services" data-i18n="navLocalSrv"
+                            class="text-gray-600 hover:text-blue-600 transition-colors px-3 py-2 rounded-md text-sm font-bold leading-tight">লোকাল</a>
+                        <a href="/blog" data-i18n="navBlog"
+                            class="text-gray-600 hover:text-blue-600 transition-colors px-3 py-2 rounded-md text-sm font-bold leading-tight">ব্লগ</a>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="hidden md:flex items-center gap-4">
+                    <!-- Desktop Language Switcher -->
+                    <div class="relative group">
+                        <button
+                            class="flex items-center gap-2 text-gray-600 hover:text-blue-600 bg-white/50 border border-white px-3 py-1.5 rounded-lg text-sm font-medium transition-colors shadow-sm backdrop-blur-sm">
+                            <i class="fas fa-globe"></i> <span id="currentLang">বাংলা</span> <i
+                                class="fas fa-chevron-down text-xs"></i>
+                        </button>
+                        <div
+                            class="absolute right-0 mt-2 w-32 glass rounded-xl border border-white/50 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 overflow-hidden">
+                            <a href="/ecommerce-solutions"
+                                class="w-full text-left px-4 py-2 text-sm text-gray-600 hover:text-gray-900 hover:bg-black/5 transition-colors block">English</a>
+                            <span
+                                class="w-full text-left px-4 py-2 text-sm text-blue-600 font-bold bg-blue-50 block">বাংলা</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/+8801622536026" target="_blank"
+                        class="bg-green-500 hover:bg-green-600 px-6 py-2.5 rounded-full text-sm font-semibold text-white shadow-lg shadow-green-500/20 transition-all flex items-center gap-2" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp text-lg"></i> <span data-i18n="navCta">যোগাযোগ করুন</span>
+                    </a>
+                </div>
+
+                <div class="md:hidden flex items-center gap-4">
+                    <!-- Mobile Language Quick Toggle -->
+                    <a aria-label="Switch Language" href="/ecommerce-solutions" id="mobileLangBtn"
+                        class="text-gray-600 hover:text-gray-900 font-medium text-sm border border-black/10 rounded px-2 py-1 bg-black/5 block">EN</a>
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-gray-900 focus:outline-none" aria-label="Toggle Mobile Menu">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden glass border-t border-black/10 absolute w-full left-0">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
+                <a href="/" data-i18n="navHome"
+                    class="block px-3 py-2 rounded-md text-base font-bold text-gray-600 hover:text-blue-600 hover:bg-black/5">হোম</a>
+                <a href="#online-services" data-i18n="navOnlineSrv"
+                    class="block px-3 py-2 rounded-md text-base font-bold text-gray-600 hover:text-blue-600 hover:bg-black/5">সার্ভিসেস</a>
+                <a href="#roadmap" data-i18n="navRoadmap"
+                    class="block px-3 py-2 rounded-md text-base font-bold text-gray-600 hover:text-blue-600 hover:bg-black/5">রোডম্যাপ</a>
+                <a href="#offline-services" data-i18n="navLocalSrv"
+                    class="block px-3 py-2 rounded-md text-base font-bold text-gray-600 hover:text-blue-600 hover:bg-black/5">লোকাল</a>
+                <a href="/blog" data-i18n="navBlog"
+                    class="block px-3 py-2 rounded-md text-base font-bold text-gray-600 hover:text-blue-600 hover:bg-black/5">ব্লগ</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+        <!-- 1. Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden flex items-center min-h-[90vh]">
+        <!-- Background elements -->
+        <div class="absolute inset-0 bg-slate-50 z-0"></div>
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-indigo-50 to-transparent z-0"></div>
+        <div class="absolute -top-40 -right-40 w-96 h-96 bg-indigo-400/20 rounded-full blur-3xl z-0 animate-blob"></div>
+        <div class="absolute top-40 -left-20 w-72 h-72 bg-blue-400/20 rounded-full blur-3xl z-0 animate-blob animation-delay-2000"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+                <!-- Text Content -->
+                <div class="text-center lg:text-left reveal">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-100/50 border border-indigo-200/50 text-indigo-700 font-semibold text-sm mb-6">
+                        <i class="fas fa-shopping-cart"></i> <span data-i18n="heroBadge">নেক্সট-জেন ই-কমার্স</span>
+                    </div>
+                    <h1 class="text-5xl lg:text-6xl xl:text-7xl font-black text-slate-900 leading-[1.1] mb-6 tracking-tight">
+                        <span data-i18n="heroTitle">হাই-কনভার্টিং</span><br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600" data-i18n="heroTitleHighlight">ডিজিটাল স্টোরফ্রন্ট তৈরি করুন</span>
+                    </h1>
+                    <p data-i18n="heroDesc" class="text-lg text-slate-600 font-medium leading-relaxed mb-8 max-w-2xl mx-auto lg:mx-0">হাই-কনভার্টিং ডিজিটাল স্টোরফ্রন্ট দিয়ে আপনার রিটেইল ব্যবসা স্কেল করুন। আমরা এন্ড-টু-এন্ড ই-কমার্স ইকোসিস্টেম তৈরি করি।</p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="https://wa.me/+8801622536026" class="btn-gradient px-8 py-4 rounded-xl font-bold text-white shadow-lg shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:-translate-y-1 transition-all flex items-center justify-center gap-2 text-lg" aria-label="WhatsApp">
+                            <span data-i18n="heroBtnPrimary">আপনার স্টোর শুরু করুন</span> <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Image/3D Element -->
+                <div class="relative hidden lg:block reveal delay-200">
+                    <div class="relative w-full aspect-square max-w-lg mx-auto">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-indigo-500/10 to-purple-500/10 rounded-full blur-3xl animate-pulse"></div>
+                        <img src="../image/ecommerce_real.webp" alt="E-commerce Solutions" class="w-full h-full object-contain relative z-10 drop-shadow-2xl hover:scale-105 transition-transform duration-700 ease-out" loading="lazy">
+                        
+                        <!-- Floating Badges -->
+                        <div class="absolute top-10 -left-10 bg-white/80 backdrop-blur-md p-4 rounded-2xl shadow-xl border border-white z-20 animate-float">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-green-600">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs font-bold text-gray-500 uppercase tracking-wider" data-i18n="badge1Sub">নিরাপদ</p>
+                                    <p class="font-black text-slate-900" data-i18n="badge1Title">পেমেন্টস</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="absolute bottom-20 -right-5 bg-white/80 backdrop-blur-md p-4 rounded-2xl shadow-xl border border-white z-20 animate-float animation-delay-2000">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs font-bold text-gray-500 uppercase tracking-wider" data-i18n="badge2Sub">রিয়েল-টাইম</p>
+                                    <p class="font-black text-slate-900" data-i18n="badge2Title">অ্যানালিটিক্স</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Core E-commerce Features -->
+    <section id="features" class="py-24 relative z-10 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-20 reveal">
+                <h2 data-i18n="featBadge" class="text-indigo-600 font-bold tracking-widest uppercase text-xs mb-3">মূল বৈশিষ্ট্যসমূহ</h2>
+                <h3 class="text-4xl font-black text-slate-900 mb-6 tracking-tight"><span data-i18n="featTitle1">কেন আমাদের ই-কমার্স</span> <span class="text-gradient" data-i18n="featTitle2">বেছে নেবেন?</span></h3>
+                <p data-i18n="featDesc" class="text-lg text-slate-600 font-medium leading-relaxed max-w-2xl mx-auto">আমরা শুধু ওয়েবসাইট বানাই না; আপনার সেলস বাড়াতে আমরা স্কেলেবল রিটেইল ইকোসিস্টেম তৈরি করি।</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 xl:gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-slate-50 border border-slate-100 rounded-3xl p-8 hover:bg-white hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group reveal">
+                    <div class="w-14 h-14 bg-indigo-100 rounded-2xl flex items-center justify-center text-indigo-600 mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-credit-card text-2xl"></i>
+                    </div>
+                    <h4 data-i18n="f1Title" class="text-xl font-bold text-slate-900 mb-3 group-hover:text-indigo-600 transition-colors">সিমলেস পেমেন্ট</h4>
+                    <p data-i18n="f1Desc" class="text-slate-600 font-medium leading-relaxed text-sm">বিকাশ, নগদ এবং স্ট্রাইপের মতো গেটওয়ের সাথে নিরাপদ ইন্টিগ্রেশন।</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-slate-50 border border-slate-100 rounded-3xl p-8 hover:bg-white hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group reveal delay-100">
+                    <div class="w-14 h-14 bg-purple-100 rounded-2xl flex items-center justify-center text-purple-600 mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-boxes text-2xl"></i>
+                    </div>
+                    <h4 data-i18n="f2Title" class="text-xl font-bold text-slate-900 mb-3 group-hover:text-purple-600 transition-colors">ইনভেন্টরি অটোমেশন</h4>
+                    <p data-i18n="f2Desc" class="text-slate-600 font-medium leading-relaxed text-sm">স্বয়ংক্রিয় স্টক আপডেট এবং সিঙ্ক।</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-slate-50 border border-slate-100 rounded-3xl p-8 hover:bg-white hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group reveal delay-200">
+                    <div class="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center text-blue-600 mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-chart-pie text-2xl"></i>
+                    </div>
+                    <h4 data-i18n="f3Title" class="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">অ্যাডভান্সড অ্যানালিটিক্স</h4>
+                    <p data-i18n="f3Desc" class="text-slate-600 font-medium leading-relaxed text-sm">রিয়েল-টাইম সেলস ড্যাশবোর্ড এবং কাস্টমার ট্র্যাকিং।</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="bg-slate-50 border border-slate-100 rounded-3xl p-8 hover:bg-white hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group reveal delay-300">
+                    <div class="w-14 h-14 bg-pink-100 rounded-2xl flex items-center justify-center text-pink-600 mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-store text-2xl"></i>
+                    </div>
+                    <h4 data-i18n="f4Title" class="text-xl font-bold text-slate-900 mb-3 group-hover:text-pink-600 transition-colors">মাল্টি-ভেন্ডর সেটআপ</h4>
+                    <p data-i18n="f4Desc" class="text-slate-600 font-medium leading-relaxed text-sm">দারাজ/অ্যামাজনের মতো মার্কেটপ্লেস তৈরি করুন।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dropshipping Section (Premium Neon Glass) -->
+    <section class="relative py-28 z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-900 via-purple-950 to-slate-900 overflow-hidden">
+        <!-- Animated Blobs -->
+        <div class="absolute inset-0 pointer-events-none overflow-hidden">
+            <div class="absolute top-0 left-1/4 w-[500px] h-[500px] bg-fuchsia-600/20 rounded-full blur-[120px] mix-blend-screen animate-pulse" style="animation-duration: 4s;"></div>
+            <div class="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-violet-600/20 rounded-full blur-[150px] mix-blend-screen animate-pulse" style="animation-duration: 6s; animation-delay: 1s;"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+            <!-- Animated Gradient Border Wrapper -->
+            <div class="relative rounded-[3rem] p-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500 hover:from-cyan-500 hover:via-purple-500 hover:to-pink-500 transition-all duration-1000 shadow-[0_0_50px_rgba(168,85,247,0.2)] hover:shadow-[0_0_80px_rgba(168,85,247,0.4)] reveal group/glow">
+                <!-- Inner Glass Card -->
+                <div class="bg-slate-900/90 backdrop-blur-3xl rounded-[3rem] p-8 md:p-16 overflow-hidden h-full">
+                    <div class="grid lg:grid-cols-2 gap-16 items-center">
+                        <div class="relative z-10">
+                            <!-- Badge -->
+                            <div class="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-pink-300 font-semibold text-sm mb-8 shadow-inner backdrop-blur-md hover:bg-white/10 transition-colors cursor-default">
+                                <span class="relative flex h-3 w-3">
+                                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-pink-400 opacity-75"></span>
+                                  <span class="relative inline-flex rounded-full h-3 w-3 bg-pink-500"></span>
+                                </span>
+                                <span data-i18n="dropBadge">বিশেষ সুযোগ</span>
+                            </div>
+                            
+                            <!-- Headings -->
+                            <h3 class="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 leading-[1.1] tracking-tight">
+                                <span data-i18n="dropTitle1" class="block mb-2">আপনার</span> 
+                                <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400" style="background-size: 200% auto;" data-i18n="dropTitle2">ড্রপশিপিং ব্যবসা শুরু করুন</span>
+                            </h3>
+                            
+                            <!-- Description -->
+                            <p data-i18n="dropDesc" class="text-slate-300/90 text-lg mb-10 leading-relaxed font-medium">কোন পণ্য নেই? সমস্যা নেই! আজই একটি সম্পূর্ণ স্বয়ংক্রিয় ড্রপশিপিং ব্যবসা শুরু করতে Dremoy IT এর সাথে যুক্ত হোন। বিকল্পভাবে, উচ্চ আয়ের দক্ষতা অর্জন করতে আমাদের আইটি ট্রেনিং এ যোগ দিন।</p>
+                            
+                            <!-- Interactive Feature Grid -->
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+                                <div class="bg-white/5 border border-white/10 rounded-2xl p-4 hover:bg-white/10 hover:-translate-y-1 hover:border-purple-500/50 transition-all duration-300 group">
+                                    <div class="w-10 h-10 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center mb-3 group-hover:scale-110 group-hover:bg-purple-500 group-hover:text-white transition-all shadow-inner">
+                                        <i class="fas fa-box-open"></i>
+                                    </div>
+                                    <p data-i18n="dropF1" class="text-slate-200 font-semibold text-sm">শূন্য ইনভেন্টরি ঝুঁকি</p>
+                                </div>
+                                <div class="bg-white/5 border border-white/10 rounded-2xl p-4 hover:bg-white/10 hover:-translate-y-1 hover:border-pink-500/50 transition-all duration-300 group">
+                                    <div class="w-10 h-10 rounded-xl bg-pink-500/20 text-pink-400 flex items-center justify-center mb-3 group-hover:scale-110 group-hover:bg-pink-500 group-hover:text-white transition-all shadow-inner">
+                                        <i class="fas fa-robot"></i>
+                                    </div>
+                                    <p data-i18n="dropF2" class="text-slate-200 font-semibold text-sm">স্বয়ংক্রিয় পণ্য সোর্সিং</p>
+                                </div>
+                                <div class="bg-white/5 border border-white/10 rounded-2xl p-4 hover:bg-white/10 hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-300 group sm:col-span-2 flex items-center gap-4">
+                                    <div class="w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:bg-cyan-500 group-hover:text-white transition-all shadow-inner">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </div>
+                                    <p data-i18n="dropF3" class="text-slate-200 font-semibold text-sm">আইটি শিক্ষার্থীদের জন্য ফ্রি মেন্টরিং</p>
+                                </div>
+                            </div>
+                            
+                            <!-- CTA & Pricing -->
+                            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6 mt-2">
+                                <a href="#" onclick="openEnrollModal(event, 'Dropshipping Business')" class="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-white text-slate-900 font-black hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] transition-all duration-300 group/btn">
+                                    <span data-i18n="dropBtn">প্রোগ্রামে যোগ দিন</span> 
+                                    <span class="w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center group-hover/btn:bg-purple-600 transition-colors">
+                                        <i class="fas fa-arrow-right text-sm -rotate-45 group-hover/btn:rotate-0 transition-transform"></i>
+                                    </span>
+                                </a>
+                                
+                                <!-- Price Tag -->
+                                <div class="flex items-center gap-4 bg-white/5 border border-white/10 px-5 py-3 rounded-xl backdrop-blur-sm">
+                                    <div class="text-right leading-tight">
+                                        <div class="text-xs font-bold text-slate-400 uppercase tracking-wider" data-i18n="dropSetupFee">Setup Fee</div>
+                                        <div class="text-xs text-slate-500 line-through">৳ 10,000</div>
+                                    </div>
+                                    <div class="w-px h-8 bg-white/10"></div>
+                                    <div class="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400" data-i18n="dropPrice">
+                                        ৳ 4,999
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Dynamic Image Section -->
+                        <div class="relative lg:h-[600px] flex items-center justify-center" style="perspective: 1000px;">
+                            <!-- Glow Behind Image -->
+                            <div class="absolute inset-0 bg-gradient-to-tr from-purple-500/30 to-cyan-500/30 rounded-full blur-3xl opacity-50 group-hover/glow:opacity-80 transition-opacity duration-700"></div>
+                            
+                            <!-- Main Glass Mockup -->
+                            <div class="relative w-full max-w-md rounded-3xl bg-white/5 border border-white/20 p-3 shadow-2xl backdrop-blur-xl transform-gpu hover:scale-[1.02] transition-transform duration-700 ease-out z-10" style="transform: rotateY(-10deg) rotateX(5deg);">
+                                <img src="../image/ecommerce_real.webp" alt="Dropshipping Dashboard" class="rounded-2xl w-full object-cover mix-blend-screen opacity-90" loading="lazy">
+                                
+                                <!-- Floating Element 1 (Top Right) -->
+                                <div class="absolute -top-6 -right-6 bg-slate-800/90 backdrop-blur-md border border-slate-600 p-4 rounded-2xl shadow-xl flex items-center gap-4 z-20 hover:-translate-y-2 transition-transform duration-300">
+                                    <div class="w-12 h-12 rounded-xl bg-purple-500/20 flex items-center justify-center text-purple-400">
+                                        <i class="fas fa-bolt text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Status</p>
+                                        <p class="text-white font-black text-sm">Fully Automated</p>
+                                    </div>
+                                </div>
+                                
+                                <!-- Floating Element 2 (Bottom Left) -->
+                                <div class="absolute -bottom-8 -left-8 bg-slate-800/90 backdrop-blur-md border border-slate-600 p-4 rounded-2xl shadow-xl flex items-center gap-4 z-20 hover:-translate-y-2 transition-transform duration-300">
+                                    <div class="relative w-12 h-12 rounded-xl bg-green-500/20 flex items-center justify-center text-green-400">
+                                        <span class="absolute top-0 right-0 w-3 h-3 bg-green-500 rounded-full animate-ping"></span>
+                                        <i class="fas fa-dollar-sign text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] text-slate-400 font-bold uppercase tracking-wider" data-i18n="dropSaleSub">নতুন সেল</p>
+                                        <p class="text-white font-black text-lg">৳ 4,500</p>
+                                    </div>
+                                </div>
+                                
+                                <!-- Decorative UI Elements -->
+                                <div class="absolute inset-0 border-2 border-white/5 rounded-3xl pointer-events-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Smooth Gradient Fade to Next Section -->
+        <div class="absolute bottom-0 left-0 w-full h-48 bg-gradient-to-b from-transparent to-slate-900 z-10 pointer-events-none"></div>
+    </section>
+
+    <!-- 3. Tech Stack & Logistics -->
+    <section id="tech-stack" class="py-24 relative z-10 bg-slate-900 overflow-hidden pt-12 pb-32">
+        
+        <!-- Blobs -->
+        <div class="absolute inset-0 pointer-events-none overflow-hidden">
+            <!-- Moved blobs down to avoid color bleeding at the top boundary -->
+            <div class="absolute top-32 left-10 w-[500px] h-[500px] bg-indigo-500/30 rounded-full blur-[100px] mix-blend-screen opacity-60"></div>
+            <div class="absolute bottom-10 right-10 w-[600px] h-[600px] bg-purple-500/30 rounded-full blur-[120px] mix-blend-screen opacity-60"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+            <div class="text-center mb-20 reveal">
+                <h2 data-i18n="techBadge" class="text-indigo-400 font-bold tracking-widest uppercase text-xs mb-3">ইকোসিস্টেম ইন্টিগ্রেশন</h2>
+                <h3 class="text-4xl font-black text-white mb-6 tracking-tight"><span data-i18n="techTitle1">প্রযুক্তি এবং</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400" data-i18n="techTitle2">লজিস্টিকস</span></h3>
+                <p data-i18n="techDesc" class="text-lg text-slate-300 font-medium leading-relaxed max-w-2xl mx-auto">নিখুঁত অপারেশন প্রদানের জন্য আমরা সেরা প্ল্যাটফর্ম এবং লজিস্টিক এপিআই ব্যবহার করি।</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8">
+                <!-- Tech 1 -->
+                <div class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-[1.5rem] p-6 text-center hover:bg-white/20 transition-all duration-300 reveal group">
+                    <i class="fab fa-react text-4xl text-[#61DAFB] mb-4 group-hover:rotate-180 transition-transform duration-700"></i>
+                    <h4 class="text-white font-bold">React & Next.js</h4>
+                    <p data-i18n="t1Desc" class="text-slate-300 text-xs mt-2 font-medium">খুব দ্রুত কাস্টম স্টোরফ্রন্ট।</p>
+                </div>
+                <!-- Tech 2 -->
+                <div class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-[1.5rem] p-6 text-center hover:bg-white/20 transition-all duration-300 reveal delay-100 group">
+                    <i class="fab fa-wordpress text-4xl text-[#21759b] mb-4 group-hover:scale-110 transition-transform duration-300"></i>
+                    <h4 class="text-white font-bold">WooCommerce</h4>
+                    <p data-i18n="t2Desc" class="text-slate-300 text-xs mt-2 font-medium">ফ্লেক্সিবল ই-কমার্স।</p>
+                </div>
+                <!-- Tech 3 -->
+                <div class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-[1.5rem] p-6 text-center hover:bg-white/20 transition-all duration-300 reveal delay-200 group">
+                    <i class="fab fa-shopify text-4xl text-[#95BF47] mb-4 group-hover:scale-110 transition-transform duration-300"></i>
+                    <h4 class="text-white font-bold">Shopify</h4>
+                    <p data-i18n="t3Desc" class="text-slate-300 text-xs mt-2 font-medium">স্কেলেবল রিটেইল সলিউশন।</p>
+                </div>
+                <!-- Tech 4 -->
+                <div class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-[1.5rem] p-6 text-center hover:bg-white/20 transition-all duration-300 reveal delay-300 group">
+                    <i class="fas fa-truck-fast text-4xl text-orange-400 mb-4 group-hover:translate-x-2 transition-transform duration-300"></i>
+                    <h4 class="text-white font-bold">Local Logistics APIs</h4>
+                    <p data-i18n="t4Desc" class="text-slate-300 text-xs mt-2 font-medium">পাঠাও ও স্টেডফাস্ট অটোমেটেড সিঙ্ক।</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Curve -->
+        <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-[0] z-20 rotate-180">
+            <svg class="relative block w-full h-[30px] md:h-[60px]" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" fill="#ffffff"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-24 relative z-10 bg-slate-50" id="pricing">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-20 reveal">
+                <h2 data-i18n="priceBadge" class="text-indigo-600 font-bold tracking-widest uppercase text-xs mb-3">বিনিয়োগ</h2>
+                <h3 class="text-4xl font-black text-slate-900 mb-6 tracking-tight"><span data-i18n="priceTitle1">স্বচ্ছ</span> <span class="text-gradient" data-i18n="priceTitle2">মূল্য নির্ধারণ</span></h3>
+                <p data-i18n="priceDesc" class="text-lg text-slate-600 font-medium leading-relaxed max-w-2xl mx-auto">আপনার ব্যবসার স্কেল অনুযায়ী সঠিক প্যাকেজ বেছে নিন। কোনো লুকানো চার্জ নেই।</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                <!-- Basic Dropshipping/Ecom -->
+                <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-xl hover:-translate-y-2 transition-all duration-300 reveal flex flex-col group">
+                    <h4 class="text-xl font-bold text-slate-900 mb-2" data-i18n="p1Title">স্টার্টার স্টোর</h4>
+                    <p class="text-sm text-slate-500 mb-6 font-medium" data-i18n="p1Desc">ছোট ব্যবসার জন্য পারফেক্ট</p>
+                    <div class="text-3xl font-black text-slate-900 mb-2" data-i18n="p1Price">৳ ২৯,৯৯৯</div>
+                    <p class="text-xs text-slate-400 mb-8" data-i18n="pSub">এককালীন সেটআপ ফি</p>
+                    <ul class="space-y-4 mb-8 flex-grow">
+                        <li class="flex items-start gap-3 text-slate-600 text-sm"><i class="fas fa-check text-green-500 mt-1"></i> <span data-i18n="p1F1">বেসিক ই-কমার্স স্টোর</span></li>
+                        <li class="flex items-start gap-3 text-slate-600 text-sm"><i class="fas fa-check text-green-500 mt-1"></i> <span data-i18n="p1F2">WooCommerce প্ল্যাটফর্ম</span></li>
+                        <li class="flex items-start gap-3 text-slate-600 text-sm"><i class="fas fa-check text-green-500 mt-1"></i> <span data-i18n="p1F3">বিকাশ/নগদ ইন্টিগ্রেশন</span></li>
+                        <li class="flex items-start gap-3 text-slate-600 text-sm"><i class="fas fa-check text-green-500 mt-1"></i> <span data-i18n="p1F4">স্ট্যান্ডার্ড মোবাইল রেসপন্সিভ</span></li>
+                    </ul>
+                    <a href="https://wa.me/+8801622536026" class="block w-full py-3 px-4 bg-slate-100 text-slate-900 font-bold text-center rounded-xl hover:bg-slate-200 transition-colors" data-i18n="pBtnStart" aria-label="WhatsApp">এখনই শুরু করুন</a>
+                </div>
+
+                <!-- Agency / Portfolio Site (NEW) -->
+                <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-xl hover:-translate-y-2 transition-all duration-300 reveal delay-100 flex flex-col group">
+                    <h4 class="text-xl font-bold text-slate-900 mb-2" data-i18n="p2Title">প্রিমিয়াম এজেন্সি</h4>
+                    <p class="text-sm text-slate-500 mb-6 font-medium" data-i18n="p2Desc">আমাদের মত সাইট তৈরি করুন</p>
+                    <div class="text-3xl font-black text-slate-900 mb-2" data-i18n="p2Price">৳ ৪৯,৯৯৯</div>
+                    <p class="text-xs text-slate-400 mb-8" data-i18n="pSub">এককালীন সেটআপ ফি</p>
+                    <ul class="space-y-4 mb-8 flex-grow">
+                        <li class="flex items-start gap-3 text-slate-600 text-sm"><i class="fas fa-check text-blue-500 mt-1"></i> <span data-i18n="p2F1">প্রিমিয়াম গ্লাসমরফিজম UI</span></li>
+                        <li class="flex items-start gap-3 text-slate-600 text-sm"><i class="fas fa-check text-blue-500 mt-1"></i> <span data-i18n="p2F2">কাস্টম অ্যানিমেশন ও 3D</span></li>
+                        <li class="flex items-start gap-3 text-slate-600 text-sm"><i class="fas fa-check text-blue-500 mt-1"></i> <span data-i18n="p2F3">হাই-কনভার্টিং ল্যান্ডিং পেজ</span></li>
+                        <li class="flex items-start gap-3 text-slate-600 text-sm"><i class="fas fa-check text-blue-500 mt-1"></i> <span data-i18n="p2F4">মাল্টি-ল্যাঙ্গুয়েজ সেটআপ</span></li>
+                    </ul>
+                    <a href="https://wa.me/+8801622536026" class="block w-full py-3 px-4 bg-slate-100 text-slate-900 font-bold text-center rounded-xl hover:bg-slate-200 transition-colors" data-i18n="pBtnStart" aria-label="WhatsApp">এখনই শুরু করুন</a>
+                </div>
+
+                <!-- Pro E-commerce (Highlighted) -->
+                <div class="bg-slate-900 rounded-3xl p-8 border border-slate-700 shadow-2xl relative transform md:-translate-y-4 hover:-translate-y-6 transition-all duration-300 reveal delay-200 flex flex-col group">
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-indigo-500 to-purple-500 text-white text-xs font-bold px-4 py-1 rounded-full shadow-lg" data-i18n="pMostPop">সবচেয়ে জনপ্রিয়</div>
+                    <h4 class="text-xl font-bold text-white mb-2" data-i18n="p3Title">মার্কেটপ্লেস প্রো</h4>
+                    <p class="text-sm text-slate-400 mb-6 font-medium" data-i18n="p3Desc">মাল্টি-ভেন্ডর ব্যবসার জন্য</p>
+                    <div class="text-3xl font-black text-white mb-2" data-i18n="p3Price">৳ ৬৯,৯৯৯</div>
+                    <p class="text-xs text-slate-500 mb-8" data-i18n="pSub">এককালীন সেটআপ ফি</p>
+                    <ul class="space-y-4 mb-8 flex-grow">
+                        <li class="flex items-start gap-3 text-slate-300 text-sm"><i class="fas fa-check text-indigo-400 mt-1"></i> <span data-i18n="p3F1">মাল্টি-ভেন্ডর সিস্টেম</span></li>
+                        <li class="flex items-start gap-3 text-slate-300 text-sm"><i class="fas fa-check text-indigo-400 mt-1"></i> <span data-i18n="p3F2">কাস্টম Next.js ফ্রন্টএন্ড</span></li>
+                        <li class="flex items-start gap-3 text-slate-300 text-sm"><i class="fas fa-check text-indigo-400 mt-1"></i> <span data-i18n="p3F3">লোকাল কুরিয়ার API (পাঠাও)</span></li>
+                        <li class="flex items-start gap-3 text-slate-300 text-sm"><i class="fas fa-check text-indigo-400 mt-1"></i> <span data-i18n="p3F4">এসএমএস অটোমেশন ও OTP</span></li>
+                    </ul>
+                    <a href="https://wa.me/+8801622536026" class="block w-full py-3 px-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold text-center rounded-xl hover:shadow-lg hover:shadow-indigo-500/25 transition-all" data-i18n="pBtnStart" aria-label="WhatsApp">এখনই শুরু করুন</a>
+                </div>
+
+                <!-- Enterprise -->
+                <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-xl hover:-translate-y-2 transition-all duration-300 reveal delay-300 flex flex-col group">
+                    <h4 class="text-xl font-bold text-slate-900 mb-2" data-i18n="p4Title">এন্টারপ্রাইজ কাস্টম</h4>
+                    <p class="text-sm text-slate-500 mb-6 font-medium" data-i18n="p4Desc">বড় স্কেল অপারেশনের জন্য</p>
+                    <div class="text-3xl font-black text-slate-900 mb-2" data-i18n="p4Price">৳ ১,৪৯,৯৯৯+</div>
+                    <p class="text-xs text-slate-400 mb-8" data-i18n="pCustomQuote">প্রয়োজন অনুযায়ী কাস্টম কোটেশন</p>
+                    <ul class="space-y-4 mb-8 flex-grow">
+                        <li class="flex items-start gap-3 text-slate-600 text-sm"><i class="fas fa-check text-purple-500 mt-1"></i> <span data-i18n="p4F1">নেটিভ মোবাইল অ্যাপ (iOS/Android)</span></li>
+                        <li class="flex items-start gap-3 text-slate-600 text-sm"><i class="fas fa-check text-purple-500 mt-1"></i> <span data-i18n="p4F2">ডেডিকেটেড AWS হোস্টিং সেটআপ</span></li>
+                        <li class="flex items-start gap-3 text-slate-600 text-sm"><i class="fas fa-check text-purple-500 mt-1"></i> <span data-i18n="p4F3">এআই অটোমেশন (চ্যাটবট)</span></li>
+                        <li class="flex items-start gap-3 text-slate-600 text-sm"><i class="fas fa-check text-purple-500 mt-1"></i> <span data-i18n="p4F4">ইআরপি ও ইনভেন্টরি সিঙ্ক</span></li>
+                    </ul>
+                    <a href="https://wa.me/+8801622536026" class="block w-full py-3 px-4 bg-slate-100 text-slate-900 font-bold text-center rounded-xl hover:bg-slate-200 transition-colors" data-i18n="pBtnContact" aria-label="WhatsApp">যোগাযোগ করুন</a>
+                </div>
+            </div>
+
+            <!-- Student & Micro-Business Package -->
+            <div class="mt-12 bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-100 rounded-3xl p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-8 shadow-sm hover:shadow-md transition-shadow reveal relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/4 pointer-events-none"></div>
+                <div class="relative z-10 flex-1">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-blue-700 font-bold text-xs mb-4 uppercase tracking-wider" data-i18n="pNanoBadge">বিশেষ অফার</div>
+                    <h4 class="text-2xl md:text-3xl font-black text-slate-900 mb-2" data-i18n="pNanoTitle">ন্যানো সেটআপ / স্টুডেন্ট প্যাকেজ</h4>
+                    <p class="text-slate-600 font-medium" data-i18n="pNanoDesc">নতুন শুরু করছেন? কম খরচে একটি বেসিক স্টোর পান। ছাত্র এবং ছোট ব্যবসায়ীদের জন্য আদর্শ।</p>
+                </div>
+                <div class="relative z-10 flex flex-col md:items-end w-full md:w-auto">
+                    <div class="text-4xl font-black text-blue-600 mb-2" data-i18n="pNanoPrice">৳ ১৪,৯৯৯</div>
+                    <p class="text-xs text-slate-500 mb-6 font-medium" data-i18n="pNanoSub">এককালীন পেমেন্ট</p>
+                    <a href="https://wa.me/+8801622536026" class="w-full md:w-auto px-8 py-3 bg-blue-600 text-white font-bold text-center rounded-xl hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-500/30 transition-all whitespace-nowrap" data-i18n="pNanoBtn" aria-label="WhatsApp">অফারটি গ্রহণ করুন</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section class="py-24 relative z-10 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <h3 class="text-4xl font-black text-slate-900 mb-4 tracking-tight" data-i18n="procTitle">অনবোর্ডিং ওয়ার্কফ্লো</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Step 1 -->
+                <div class="text-center relative reveal">
+                    <div class="w-16 h-16 rounded-full bg-slate-100 border-2 border-dashed border-slate-300 flex items-center justify-center text-slate-600 font-black text-xl mx-auto mb-4 relative z-10">1</div>
+                    <h4 class="font-bold text-slate-900 mb-2" data-i18n="s1Title">স্ট্র্যাটেজি</h4>
+                    <p class="text-sm text-slate-500" data-i18n="s1Desc">আপনার ব্যবসার প্রয়োজন বিশ্লেষণ করা।</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="text-center relative reveal delay-100">
+                    <div class="w-16 h-16 rounded-full bg-blue-50 border-2 border-blue-200 flex items-center justify-center text-blue-600 font-black text-xl mx-auto mb-4 relative z-10">2</div>
+                    <h4 class="font-bold text-slate-900 mb-2" data-i18n="s2Title">ডিজাইন</h4>
+                    <p class="text-sm text-slate-500" data-i18n="s2Desc">প্রিমিয়াম UI/UX তৈরি করা।</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="text-center relative reveal delay-200">
+                    <div class="w-16 h-16 rounded-full bg-purple-50 border-2 border-purple-200 flex items-center justify-center text-purple-600 font-black text-xl mx-auto mb-4 relative z-10">3</div>
+                    <h4 class="font-bold text-slate-900 mb-2" data-i18n="s3Title">ডেভেলপ</h4>
+                    <p class="text-sm text-slate-500" data-i18n="s3Desc">কোডিং এবং API ইন্টিগ্রেশন।</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="text-center relative reveal delay-300">
+                    <div class="w-16 h-16 rounded-full bg-green-50 border-2 border-green-200 flex items-center justify-center text-green-600 font-black text-xl mx-auto mb-4 relative z-10">4</div>
+                    <h4 class="font-bold text-slate-900 mb-2" data-i18n="s4Title">লঞ্চ</h4>
+                    <p class="text-sm text-slate-500" data-i18n="s4Desc">ডিপ্লয়মেন্ট এবং স্কেলিং।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-24 relative z-10 bg-slate-50">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <h3 class="text-4xl font-black text-slate-900 mb-4 tracking-tight" data-i18n="faqTitle">সাধারণ প্রশ্নসমূহ</h3>
+            </div>
+            <div class="space-y-4 reveal delay-100">
+                <!-- Q1 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
+                    <h4 class="font-bold text-slate-900 mb-2" data-i18n="q1">একটি স্টোর তৈরি করতে কতক্ষণ সময় লাগে?</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed" data-i18n="a1">জটিলতার উপর নির্ভর করে একটি স্টার্টার স্টোরে ১-২ সপ্তাহ সময় লাগে, যেখানে একটি কাস্টম মাল্টি-ভেন্ডর মার্কেটপ্লেস ৪-৮ সপ্তাহ সময় নিতে পারে।</p>
+                </div>
+                <!-- Q2 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
+                    <h4 class="font-bold text-slate-900 mb-2" data-i18n="q2">আপনারা কি হোস্টিং প্রদান করেন?</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed" data-i18n="a2">হ্যাঁ, আমরা ই-কমার্সের জন্য কনফিগার করা হাই-পারফরম্যান্স ক্লাউড হোস্টিং প্রদান করি।</p>
+                </div>
+            </div>
+        </div>
+    <!-- Complete E-commerce Ecosystem Section -->
+    </section>
+
+    <section class="py-24 relative bg-slate-50 border-y border-gray-100 overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none">
+            <div class="absolute -top-24 -right-24 w-96 h-96 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob"></div>
+            <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-purple-100 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob" style="animation-delay: 2s;"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16 reveal">
+                <h2 data-i18n="ecomBadge" class="text-blue-600 font-bold uppercase tracking-wider text-sm mb-2">ইকোসিস্টেম সুবিধা</h2>
+                <h3 data-i18n="ecomTitle" class="text-3xl md:text-5xl font-extrabold text-slate-900 leading-tight">কেন আপনার একটি সম্পূর্ণ <span class='text-gradient'>ই-কমার্স ইকোসিস্টেম</span> প্রয়োজন?</h3>
+                <p data-i18n="ecomDesc" class="mt-4 text-slate-600 max-w-2xl mx-auto font-medium">জানুন কীভাবে একটি সাধারণ স্টোর থেকে সম্পূর্ণ ডিজিটাল ইকোসিস্টেমে পরিবর্তন আপনার সেলস বাড়াতে পারে।</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:-translate-y-2 transition-transform duration-300 group reveal">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-white mb-6 shadow-lg shadow-blue-500/30 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-cogs text-2xl"></i>
+                    </div>
+                    <h4 data-i18n="eCard1Title" class="text-2xl font-bold text-slate-900 mb-3">স্বয়ংক্রিয় অপারেশন</h4>
+                    <p data-i18n="eCard1Desc" class="text-slate-600 leading-relaxed">ম্যানুয়াল স্টক আপডেট বন্ধ করুন।</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:-translate-y-2 transition-transform duration-300 group reveal delay-100">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white mb-6 shadow-lg shadow-purple-500/30 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-chart-line text-2xl"></i>
+                    </div>
+                    <h4 data-i18n="eCard2Title" class="text-2xl font-bold text-slate-900 mb-3">বেশি কনভার্সন</h4>
+                    <p data-i18n="eCard2Desc" class="text-slate-600 leading-relaxed">অপ্টিমাইজড UI/UX চেকআউট সহজ করে।</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:-translate-y-2 transition-transform duration-300 group reveal">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-emerald-500 to-green-500 flex items-center justify-center text-white mb-6 shadow-lg shadow-emerald-500/30 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-store text-2xl"></i>
+                    </div>
+                    <h4 data-i18n="eCard3Title" class="text-2xl font-bold text-slate-900 mb-3">স্কেলেবল মাল্টি-ভেন্ডর</h4>
+                    <p data-i18n="eCard3Desc" class="text-slate-600 leading-relaxed">ছোট থেকে শুরু করে বড় মার্কেটপ্লেসে স্কেল করুন।</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-white p-8 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:-translate-y-2 transition-transform duration-300 group reveal delay-100">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-500 flex items-center justify-center text-white mb-6 shadow-lg shadow-amber-500/30 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-truck text-2xl"></i>
+                    </div>
+                    <h4 data-i18n="eCard4Title" class="text-2xl font-bold text-slate-900 mb-3">লজিস্টিকস ইন্টিগ্রেশন</h4>
+                    <p data-i18n="eCard4Desc" class="text-slate-600 leading-relaxed">পাঠাও এবং স্টেডফাস্টের সাথে স্বয়ংক্রিয় ট্র্যাকিং।</p>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center reveal">
+                <a href="/complete-ecommerce-ecosystem-2026" class="inline-flex items-center gap-2 px-8 py-4 bg-white border-2 border-blue-100 hover:border-blue-500 text-blue-600 font-bold rounded-full shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                    <i class="fas fa-book-reader"></i> <span data-i18n="ecomBtn">সম্পূর্ণ গাইডটি পড়ুন</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. CTA Section -->
+    <section class="py-20 relative z-10">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-indigo-600 to-purple-700 rounded-[2.5rem] p-10 md:p-16 text-center relative overflow-hidden shadow-2xl reveal">
+                <!-- Background Pattern -->
+                <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 32px 32px;"></div>
+                
+                <div class="relative z-10">
+                    <h2 data-i18n="ctaTitle" class="text-3xl md:text-5xl font-black text-white mb-6">অনলাইন সেলস স্কেল করতে প্রস্তুত?</h2>
+                    <p data-i18n="ctaDesc" class="text-indigo-100 text-lg mb-10 max-w-2xl mx-auto font-medium">Dremoy IT-এর উপর ভরসা রাখা ব্র্যান্ডগুলোর সাথে যুক্ত হোন।</p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="https://wa.me/+8801622536026" class="bg-white text-indigo-600 px-8 py-4 rounded-xl font-bold hover:bg-indigo-50 hover:scale-105 transition-all flex items-center justify-center gap-2 shadow-xl" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp text-xl"></i> <span data-i18n="ctaBtn1">হোয়াটসঅ্যাপে চ্যাট করুন</span>
+                        </a>
+                        <a href="tel:+8801622536026" class="bg-indigo-800/50 text-white border border-indigo-400/30 px-8 py-4 rounded-xl font-bold hover:bg-indigo-800 transition-all flex items-center justify-center gap-2 backdrop-blur-sm">
+                            <i class="fas fa-phone-alt"></i> <span data-i18n="ctaBtn2">সরাসরি কল করুন</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>        <footer class="relative z-10 bg-slate-900 pt-20 pb-10 overflow-hidden">
+        <!-- Premium Decorative Elements -->
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-purple-500/50 to-transparent"></div>
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 max-w-4xl h-96 bg-purple-600/10 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
+                <!-- Brand Section -->
+                <div class="col-span-1">
+                    <div class="flex items-center gap-3 mb-6">
+                        <img src="../image/Favicon.png" alt="Dremoy Logo" class="w-10 h-10 object-contain drop-shadow-lg" loading="lazy">
+                        <span class="font-bold text-2xl tracking-tight text-white">Dremoy IT</span>
+                    </div>
+                    <p data-i18n="ftDesc" class="text-slate-400 text-sm mb-8 font-medium leading-relaxed max-w-sm">বাংলাদেশের একটি শীর্ষস্থানীয় আইটি ট্রেনিং এবং সফটওয়্যার ডেভেলপমেন্ট কোম্পানি।</p>
+                    <div class="flex gap-4">
+                        <a aria-label="Facebook" href="https://fb.com/dremoyit" target="_blank"
+                            class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-300 hover:text-white hover:bg-blue-600 hover:border-blue-600 transition-all duration-300 shadow-lg hover:shadow-blue-500/25 hover:-translate-y-1"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a aria-label="YouTube" href="https://www.youtube.com/@dremoyit" target="_blank"
+                            class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-300 hover:text-white hover:bg-red-600 hover:border-red-600 transition-all duration-300 shadow-lg hover:shadow-red-500/25 hover:-translate-y-1"><i
+                                class="fab fa-youtube"></i></a>
+                        <a aria-label="Instagram" href="#" target="_blank"
+                            class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-300 hover:text-white hover:bg-pink-600 hover:border-pink-600 transition-all duration-300 shadow-lg hover:shadow-pink-500/25 hover:-translate-y-1"><i
+                                class="fab fa-instagram"></i></a>
+                        <a aria-label="Email Us" href="mailto:dremoyit@gmail.com" target="_blank"
+                            class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-300 hover:text-white hover:bg-orange-500 hover:border-orange-500 transition-all duration-300 shadow-lg hover:shadow-orange-500/25 hover:-translate-y-1"><i
+                                class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <!-- Courses Section -->
+                <div class="col-span-1">
+                    <h4 data-i18n="ftCourses" class="text-white font-bold mb-6 text-lg tracking-wide">আমাদের কোর্সসমূহ</h4>
+                    <ul class="space-y-4 font-medium">
+                        <li><a href="/it-training"
+                                class="group text-slate-400 hover:text-blue-400 text-sm transition-all duration-300 flex items-center gap-2"><i
+                                    class="fas fa-chevron-right text-[10px] text-slate-600 group-hover:text-blue-400 transition-colors"></i> <span
+                                    data-i18n="ftC1" class="transform group-hover:translate-x-1 transition-transform">বেসিক কম্পিউটার কোর্স</span></a></li>
+                        <li><a href="/it-training"
+                                class="group text-slate-400 hover:text-blue-400 text-sm transition-all duration-300 flex items-center gap-2"><i
+                                    class="fas fa-chevron-right text-[10px] text-slate-600 group-hover:text-blue-400 transition-colors"></i> <span
+                                    data-i18n="ftC2" class="transform group-hover:translate-x-1 transition-transform">প্রফেশনাল অফিস স্কিল</span></a></li>
+                        <li><a href="/it-training"
+                                class="group text-slate-400 hover:text-blue-400 text-sm transition-all duration-300 flex items-center gap-2"><i
+                                    class="fas fa-chevron-right text-[10px] text-slate-600 group-hover:text-blue-400 transition-colors"></i> <span
+                                    data-i18n="ftC3" class="transform group-hover:translate-x-1 transition-transform">গ্রাফিক্স ডিজাইন</span></a>
+                        </li>
+                        <li><a href="/it-training"
+                                class="group text-slate-400 hover:text-blue-400 text-sm transition-all duration-300 flex items-center gap-2"><i
+                                    class="fas fa-chevron-right text-[10px] text-slate-600 group-hover:text-blue-400 transition-colors"></i> <span
+                                    data-i18n="ftC4" class="transform group-hover:translate-x-1 transition-transform">স্পোকেন ইংলিশ</span></a></li>
+                    </ul>
+                </div>
+
+                <!-- Links Section -->
+                <div class="col-span-1">
+                    <h4 data-i18n="ftLinks" class="text-white font-bold mb-6 text-lg tracking-wide">গুরুত্বপূর্ণ লিংকসমূহ</h4>
+                    <ul class="space-y-4 font-medium">
+                        <li><a href="/it-training#curriculum"
+                                class="group text-slate-400 hover:text-purple-400 text-sm transition-all duration-300 flex items-center gap-2"><i
+                                    class="fas fa-chevron-right text-[10px] text-slate-600 group-hover:text-purple-400 transition-colors"></i> <span
+                                    data-i18n="ftL1" class="transform group-hover:translate-x-1 transition-transform">সিলেবাস</span></a></li>
+                        <li><a href="/it-training#support"
+                                class="group text-slate-400 hover:text-purple-400 text-sm transition-all duration-300 flex items-center gap-2"><i
+                                    class="fas fa-chevron-right text-[10px] text-slate-600 group-hover:text-purple-400 transition-colors"></i> <span
+                                    data-i18n="ftL2" class="transform group-hover:translate-x-1 transition-transform">স্টুডেন্ট সাপোর্ট</span></a>
+                        </li>
+                        <li><a href="/it-training#faq"
+                                class="group text-slate-400 hover:text-purple-400 text-sm transition-all duration-300 flex items-center gap-2"><i
+                                    class="fas fa-chevron-right text-[10px] text-slate-600 group-hover:text-purple-400 transition-colors"></i> <span
+                                    data-i18n="ftL3" class="transform group-hover:translate-x-1 transition-transform">FAQ</span></a></li>
+                        <li><a href="/it-training#reviews"
+                                class="group text-slate-400 hover:text-purple-400 text-sm transition-all duration-300 flex items-center gap-2"><i
+                                    class="fas fa-chevron-right text-[10px] text-slate-600 group-hover:text-purple-400 transition-colors"></i> <span
+                                    data-i18n="ftL4" class="transform group-hover:translate-x-1 transition-transform">সাকসেস স্টোরি</span></a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="col-span-1">
+                    <h4 data-i18n="ftContact" class="text-white font-bold mb-6 text-lg tracking-wide">যোগাযোগ করুন</h4>
+                    <ul class="space-y-5 font-medium">
+                        <li class="flex items-start gap-4 group">
+                            <div class="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-blue-600/20 group-hover:border-blue-500/50 transition-colors">
+                                <i class="fas fa-map-marker-alt text-blue-400"></i>
+                            </div>
+                            <span data-i18n="ftAddress" class="text-slate-400 text-sm leading-relaxed">হবিরবাড়ী, সীডস্টোর বাজার, ময়মনসিংহ</span>
+                        </li>
+                        <li class="flex items-center gap-4 group">
+                            <div class="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center shrink-0 group-hover:bg-purple-600/20 group-hover:border-purple-500/50 transition-colors">
+                                <i class="fas fa-phone-alt text-purple-400"></i>
+                            </div>
+                            <a href="tel:+8801622536026"
+                                class="text-slate-400 hover:text-white text-sm transition-colors">+880
+                                1622-536026</a>
+                        </li>
+                        <li class="flex items-center gap-4 group">
+                            <div class="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center shrink-0 group-hover:bg-green-500/20 group-hover:border-green-500/50 transition-colors">
+                                <i class="fab fa-whatsapp text-green-400 text-lg"></i>
+                            </div>
+                            <a aria-label="WhatsApp" href="https://wa.me/+8801622536026"
+                                class="text-slate-400 hover:text-white text-sm transition-colors">WhatsApp
+                                Message</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
+                <p class="text-slate-500 text-sm font-medium">� 2026 Dremoy IT. All rights reserved.</p>
+                <div class="flex items-center gap-2 text-sm text-slate-500 font-medium">
+                    Developed with <i class="fas fa-heart text-red-500 animate-pulse"></i> by <a href="/"
+                        class="text-white hover:text-blue-400 font-bold transition-colors">Dremoy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Translation Script -->
+    <script>
+        const translations = {
+            en: {
+                dropBadge: "Exclusive Opportunity", dropTitle1: "Start Your", dropTitle2: "Dropshipping Empire", dropDesc: "No products? No problem! Partner with Dremoy IT to launch a fully automated, ready-to-sell dropshipping business today. Alternatively, join our premium IT training programs to master high-income skills and start earning through our exclusive network. Your digital success story starts here.", dropF1: "Zero inventory risk", dropF2: "Automated product sourcing", dropF3: "Free mentoring for IT students", dropBtn: "Join the Program", dropSaleSub: "New Sale", priceBadge: "Investment", priceTitle1: "Transparent", priceTitle2: "Pricing", priceDesc: "Choose the right ecosystem for your business scale. No hidden fees. Local market rates applied.",
+                p1Title: "Starter Store", p1Desc: "Perfect for small businesses", p1Price: "৳ 29,999", pSub: "One-time setup fee", p1F1: "Basic E-commerce Store", p1F2: "WooCommerce Platform", p1F3: "bKash/Nagad Integration", p1F4: "Standard Mobile Responsive", pBtnStart: "Start Now",
+                p2Title: "Premium Agency", p2Desc: "Build a site just like ours", p2Price: "৳ 49,999", p2F1: "Premium Glassmorphism UI", p2F2: "Custom Animations & 3D", p2F3: "High-Converting Landing Pages", p2F4: "Multi-language (i18n) setup",
+                pMostPop: "Most Popular", p3Title: "Marketplace Pro", p3Desc: "For scaling multi-vendor businesses", p3Price: "৳ 69,999", p3F1: "Multi-vendor System", p3F2: "Custom Next.js Frontend", p3F3: "Local Courier API (Pathao)", p3F4: "SMS Automation & OTP",
+                p4Title: "Enterprise Custom", p4Desc: "For large scale operations", p4Price: "৳ 1,49,999+", pCustomQuote: "Custom Quote based on needs", p4F1: "Native Mobile App (iOS/Android)", p4F2: "Dedicated AWS Hosting Setup", p4F3: "AI-driven Automation (Chatbots)", p4F4: "ERP & Inventory Sync", pBtnContact: "Contact Sales",
+                pNanoBadge: "Special Offer", pNanoTitle: "Nano Setup / Student Package", pNanoDesc: "Just starting out? Get a fully functioning basic store without breaking the bank. Ideal for students, micro-businesses, and sole proprietors.", pNanoPrice: "৳ 14,999", pNanoSub: "One-time payment", pNanoBtn: "Grab the Offer",
+                procTitle: "How We Build It", s1Title: "Strategy", s1Desc: "Analyzing your business needs.", s2Title: "Design", s2Desc: "Crafting premium UI/UX.", s3Title: "Develop", s3Desc: "Coding and API integration.", s4Title: "Launch", s4Desc: "Deployment and scaling.", faqTitle: "Common Questions", q1: "How long does it take to build a store?", a1: "Depending on complexity, a starter store takes 1-2 weeks, while a custom multi-vendor marketplace may take 4-8 weeks.", q2: "Do you provide hosting?", a2: "Yes, we provide high-performance cloud hosting (AWS/DigitalOcean) configured specifically for e-commerce.",
+                heroBadge: "Next-Gen E-commerce", heroTitle: "Build High-Converting", heroTitleHighlight: "Digital Storefronts", heroDesc: "Scale your retail business with high-converting digital storefronts. We engineer end-to-end e-commerce ecosystems, featuring secure payment gateways and intelligent inventory automation.", heroBtnPrimary: "Start Your Store", badge1Sub: "Secure", badge1Title: "Payments", badge2Sub: "Real-time", badge2Title: "Analytics", featBadge: "Core Features", featTitle1: "Why Choose Our", featTitle2: "E-commerce?", featDesc: "We don't just build websites; we build scalable retail ecosystems equipped with powerful tools to drive your sales.", f1Title: "Seamless Payments", f1Desc: "Secure integration with local and global gateways like bKash, Nagad, Stripe, and PayPal.", f2Title: "Inventory Automation", f2Desc: "Automated stock updates, low inventory alerts, and seamless multi-channel sync.", f3Title: "Advanced Analytics", f3Desc: "Real-time sales dashboards, customer behavior tracking, and revenue forecasting.", f4Title: "Multi-Vendor Setup", f4Desc: "Build marketplaces like Daraz/Amazon with dedicated vendor dashboards and commission systems.", techBadge: "Ecosystem Integrations", techTitle1: "Technologies &", techTitle2: "Logistics", techDesc: "We leverage the best platforms and local logistics APIs to deliver a flawless retail operation.", t1Desc: "Lightning-fast custom storefronts.", t2Desc: "Flexible and affordable e-commerce.", t3Desc: "Scalable hosted retail solutions.", t4Desc: "Pathao & Steadfast automated sync.", ctaTitle: "Ready to Scale Your Online Sales?", ctaDesc: "Join top brands who trust Dremoy IT to build, manage, and scale their e-commerce operations. Let's build your storefront today.", ctaBtn1: "Chat on WhatsApp", ctaBtn2: "Call Directly", ecomBadge: "Ecosystem Advantage", ecomTitle: "Why You Need a Complete <span class='text-gradient'>E-commerce Ecosystem?</span>", ecomDesc: "Discover how shifting from a simple store to a complete digital retail ecosystem can transform your sales.", eCard1Title: "Automated Operations", eCard1Desc: "Stop manual stock updates. Our systems automatically sync inventory and manage orders.", eCard2Title: "Higher Conversions", eCard2Desc: "Optimized UI/UX and seamless checkouts reduce cart abandonment and increase sales.", eCard3Title: "Scalable Multi-Vendor", eCard3Desc: "Start small and seamlessly scale into a large multi-vendor marketplace like Daraz or Amazon.", eCard4Title: "Logistics Integration", eCard4Desc: "API integration with Pathao and Steadfast for automated delivery tracking and faster fulfillment.", ecomBtn: "Read the full guide on E-commerce Ecosystems",
+                ftDesc: "A leading IT training and software development company in Bangladesh. We are building the IT experts of tomorrow.", ftCourses: "Our Courses", ftC1: "Basic Computer Course", ftC2: "Professional Office Skills", ftC3: "Graphics Design", ftC4: "Spoken English", ftLinks: "Important Links", ftL1: "Syllabus", ftL2: "Student Support", ftL3: "FAQ", ftL4: "Success Stories", ftContact: "Contact Us", ftAddress: "Habirbari, Seedstore Bazar, Awlatoli Road, Bhaluka, Mymensingh",
+                navHome: "Home", navOnlineSrv: "Services", navRoadmap: "Roadmap", navLocalSrv: "Local", navWhyUs: "Why Us", navBlog: "Blog", navCta: "Contact Now",
+                badgeText: "Scale Your Agency Fast",
+                heroTitle1: "Your Trusted Partner for", heroTitle2: "Growth-Driven Digital", heroTitle3: "Solutions",
+                heroSubtitle: "Transform your workflow with AI automation, scale faster with targeted marketing, and build trust with Meta verification.",
+                heroBtnWhats: "Get Started Now", heroBtnBrowse: "Explore Services",
+                trust1: "Data-Driven ROI", trust2: "AI-Powered Tech", trust3: "Proven Strategies",
+
+                // PAS Section
+                pasSecHeading: "Why Most Digital Businesses Fail to Scale",
+                pasSecDesc: "Don't let technical roadblocks and manual work destroy your revenue potential.",
+                pasProbTitle: "Stuck in the \"Agency Hustle\" Loop?",
+                pasProbDesc: "You're grinding 14 hours a day, but revenue is flat. Payment gateways block your funds, Meta verification keeps failing, and manual tasks are eating your time. You're working IN your business, not ON it.",
+                pasAgitTitle: "Every Hour Wasted is Revenue Lost",
+                pasAgitDesc: "While you're battling technical roadblocks, competitors are closing premium retainers using AI workflows. The digital landscape is ruthless�if you're not automating and scaling, you're bleeding cash.",
+                pasSolTitle: "The Ultimate Growth Infrastructure",
+                pasSolDesc: "Stop playing small. Dremoy engineers your growth with seamless global payment setups, guaranteed Meta verification, and AI-driven systems. We build the engine; you drive the profits.",
+
+                onSrvHeading: "Premium Growth Services",
+                onSrvDesc: "High-demand digital solutions engineered to scale your agency and maximize your revenue.",
+
+                // Detailed Services
+                srv1Title: "Get Your Facebook/Instagram Blue Tick", srv1Sub: "Step-by-step guidance for Meta Verified (Blue Tick)", srv1F1: "Meta Verified Application Guidance", srv1F2: "Profile/Page Verification Support", srv1F3: "Identity & Requirement Assistance", srv1F4: "Fast Processing Support", srv1Cta: "Get Verified Now",
+                srv2Title: "Accept Global Payments Like a Pro", srv2Sub: "Virtual cards, payment gateway setup for freelancers", srv2F1: "International Payment Support", srv2F2: "Subscription Payment", srv2F3: "Online Shopping Assistance", srv2F4: "Digital Platform Payment", srv2Cta: "Set Up Payment",
+                srv3Title: "Boost Your Page Engagement 5x Faster", srv3Sub: "Targeted ads + audience research for maximum ROI", srv3F1: "Page Boost", srv3F2: "Targeted Ads Campaign", srv3F3: "Audience Research", srv3F4: "Engagement Growth", srv3F5: "Business Promotion", srv3Cta: "Boost My Page",
+                srv4Title: "Automate Your Workflow with AI", srv4Sub: "Save 20+ hours/week with intelligent automation", srv4F1: "Generative AI for Content Creation", srv4F2: "AI-Powered Automation at Scale", srv4F3: "Chatbot Development", srv4Cta: "Automate Now",
+                srv5Title: "Short Videos That Go Viral", srv5Sub: "Reels/Shorts for Instagram, TikTok, YouTube", srv5F1: "Content Planning", srv5F2: "Video Editing", srv5F3: "Caption Writing", srv5F4: "Scheduling", srv5Cta: "Create Content",
+
+                // Local Services
+                locSrvHeading: "Local IT Services", locSrvDesc: "Expert hardware, software, and everyday operational support available locally.",
+                ls1Title: "Identity Registration", ls1Desc: "New registration, correction, and digital copy processing.",
+                ls2Title: "Career Applications", ls2Desc: "Professional CV design and corporate application processing.",
+                ls3Title: "Print Logistics", ls3Desc: "High-fidelity document printing and secure scanning.",
+                ls4Title: "System Deployment", ls4Desc: "Fresh OS installation, security updates, and optimization.",
+                ls5Title: "Software Suites", ls5Desc: "Enterprise antivirus, MS Office, and productivity tool setup.",
+                ls6Title: "Hardware Diagnostics", ls6Desc: "Advanced diagnostics, performance fixes, and troubleshooting.",
+                ls7Title: "GovTech Portal Support", ls7Desc: "Reliable assistance for government portals, e-visas, and complex official application workflows.",
+                ls8Title: "CCTV Installation", ls8Desc: "Complete security camera setup, configuration, and remote monitoring access.",
+
+                // Why Us & Process
+                whyBadge: "Dremoy Value Proposition", whyTitle: "Why Choose <span class='text-gradient'>Dremoy?</span>", whyDesc: "We don't just provide services; we engineer scalable growth for your brand using 2026 tech standards.",
+                adv1Title: "Data-Driven Growth", adv1Desc: "Strategic execution ensuring rapid ROI and measurable business scaling.",
+                adv2Title: "Next-Gen AI Tech", adv2Desc: "Leveraging generative AI and intelligent automation for flawless delivery.",
+                adv3Title: "Enterprise Security", adv3Desc: "Bank-grade security protocols protecting your digital assets 24/7.",
+                procTitle: "Onboarding Workflow",
+                proc1Title: "1. Discovery Call", proc1Desc: "Connect via WhatsApp for a quick business audit.",
+                proc2Title: "2. Strategic Plan", proc2Desc: "We outline a custom ROI-focused roadmap for you.",
+                proc3Title: "3. Implementation", proc3Desc: "Our experts execute the technical heavy lifting.",
+                proc4Title: "4. Scale & Support", proc4Desc: "Continuous monitoring and scaling of your success.",
+
+                // CTA & Footer
+                ctaHeading: "Ready to Dominate Your Niche?", ctaDesc1: "Stop leaving money on the table. Join successful businesses scaling with Dremoy today.", ctaBtn: "Consult an Expert Now",
+                footerDesc: "Premium digital services agency bridging global standards with local expertise. Building the infrastructure for tomorrow's success stories."
+            },
+                        bn: {
+                dropBadge: "বিশেষ সুযোগ", dropTitle1: "আপনার", dropTitle2: "ড্রপশিপিং ব্যবসা শুরু করুন", dropDesc: "কোন পণ্য নেই? সমস্যা নেই! আজই একটি সম্পূর্ণ স্বয়ংক্রিয় ড্রপশিপিং ব্যবসা শুরু করতে Dremoy IT এর সাথে যুক্ত হোন। বিকল্পভাবে, উচ্চ আয়ের দক্ষতা অর্জন করতে আমাদের আইটি ট্রেনিং এ যোগ দিন।", dropF1: "শূন্য ইনভেন্টরি ঝুঁকি", dropF2: "স্বয়ংক্রিয় পণ্য সোর্সিং", dropF3: "আইটি শিক্ষার্থীদের জন্য ফ্রি মেন্টরিং", dropBtn: "প্রোগ্রামে যোগ দিন", dropSaleSub: "নতুন সেল", priceBadge: "বিনিয়োগ", priceTitle1: "স্বচ্ছ", priceTitle2: "মূল্য নির্ধারণ", priceDesc: "আপনার ব্যবসার স্কেল অনুযায়ী সঠিক প্যাকেজ বেছে নিন। কোনো লুকানো চার্জ নেই।",
+                p1Title: "স্টার্টার স্টোর", p1Desc: "ছোট ব্যবসার জন্য পারফেক্ট", p1Price: "৳ ২৯,৯৯৯", pSub: "এককালীন সেটআপ ফি", p1F1: "বেসিক ই-কমার্স স্টোর", p1F2: "WooCommerce প্ল্যাটফর্ম", p1F3: "বিকাশ/নগদ ইন্টিগ্রেশন", p1F4: "স্ট্যান্ডার্ড মোবাইল রেসপন্সিভ", pBtnStart: "এখনই শুরু করুন",
+                p2Title: "প্রিমিয়াম এজেন্সি", p2Desc: "আমাদের মত সাইট তৈরি করুন", p2Price: "৳ ৪৯,৯৯৯", p2F1: "প্রিমিয়াম গ্লাসমরফিজম UI", p2F2: "কাস্টম অ্যানিমেশন ও 3D", p2F3: "হাই-কনভার্টিং ল্যান্ডিং পেজ", p2F4: "মাল্টি-ল্যাঙ্গুয়েজ সেটআপ",
+                pMostPop: "সবচেয়ে জনপ্রিয়", p3Title: "মার্কেটপ্লেস প্রো", p3Desc: "মাল্টি-ভেন্ডর ব্যবসার জন্য", p3Price: "৳ ৬৯,৯৯৯", p3F1: "মাল্টি-ভেন্ডর সিস্টেম", p3F2: "কাস্টম Next.js ফ্রন্টএন্ড", p3F3: "লোকাল কুরিয়ার API (পাঠাও)", p3F4: "এসএমএস অটোমেশন ও OTP",
+                p4Title: "এন্টারপ্রাইজ কাস্টম", p4Desc: "বড় স্কেল অপারেশনের জন্য", p4Price: "৳ ১,৪৯,৯৯৯+", pCustomQuote: "প্রয়োজন অনুযায়ী কাস্টম কোটেশন", p4F1: "নেটিভ মোবাইল অ্যাপ (iOS/Android)", p4F2: "ডেডিকেটেড AWS হোস্টিং সেটআপ", p4F3: "এআই অটোমেশন (চ্যাটবট)", p4F4: "ইআরপি ও ইনভেন্টরি সিঙ্ক", pBtnContact: "যোগাযোগ করুন",
+                pNanoBadge: "বিশেষ অফার", pNanoTitle: "ন্যানো সেটআপ / স্টুডেন্ট প্যাকেজ", pNanoDesc: "নতুন শুরু করছেন? কম খরচে একটি বেসিক স্টোর পান। ছাত্র এবং ছোট ব্যবসায়ীদের জন্য আদর্শ।", pNanoPrice: "৳ ১৪,৯৯৯", pNanoSub: "এককালীন পেমেন্ট", pNanoBtn: "অফারটি গ্রহণ করুন",
+                procTitle: "আমরা কীভাবে তৈরি করি", s1Title: "স্ট্র্যাটেজি", s1Desc: "আপনার ব্যবসার প্রয়োজন বিশ্লেষণ করা।", s2Title: "ডিজাইন", s2Desc: "প্রিমিয়াম UI/UX তৈরি করা।", s3Title: "ডেভেলপ", s3Desc: "কোডিং এবং API ইন্টিগ্রেশন।", s4Title: "লঞ্চ", s4Desc: "ডিপ্লয়মেন্ট এবং স্কেলিং।", faqTitle: "সাধারণ প্রশ্নসমূহ", q1: "একটি স্টোর তৈরি করতে কতক্ষণ সময় লাগে?", a1: "জটিলতার উপর নির্ভর করে একটি স্টার্টার স্টোরে ১-২ সপ্তাহ সময় লাগে, যেখানে একটি কাস্টম মাল্টি-ভেন্ডর মার্কেটপ্লেস ৪-৮ সপ্তাহ সময় নিতে পারে।", q2: "আপনারা কি হোস্টিং প্রদান করেন?", a2: "হ্যাঁ, আমরা ই-কমার্সের জন্য কনফিগার করা হাই-পারফরম্যান্স ক্লাউড হোস্টিং প্রদান করি।",
+                heroBadge: "নেক্সট-জেন ই-কমার্স", heroTitle: "হাই-কনভার্টিং", heroTitleHighlight: "ডিজিটাল স্টোরফ্রন্ট তৈরি করুন", heroDesc: "হাই-কনভার্টিং ডিজিটাল স্টোরফ্রন্ট দিয়ে আপনার রিটেইল ব্যবসা স্কেল করুন। আমরা এন্ড-টু-এন্ড ই-কমার্স ইকোসিস্টেম তৈরি করি।", heroBtnPrimary: "আপনার স্টোর শুরু করুন", badge1Sub: "নিরাপদ", badge1Title: "পেমেন্টস", badge2Sub: "রিয়েল-টাইম", badge2Title: "অ্যানালিটিক্স", featBadge: "মূল বৈশিষ্ট্যসমূহ", featTitle1: "কেন আমাদের ই-কমার্স", featTitle2: "বেছে নেবেন?", featDesc: "আমরা শুধু ওয়েবসাইট বানাই না; আপনার সেলস বাড়াতে আমরা স্কেলেবল রিটেইল ইকোসিস্টেম তৈরি করি।", f1Title: "সিমলেস পেমেন্ট", f1Desc: "বিকাশ, নগদ এবং স্ট্রাইপের মতো গেটওয়ের সাথে নিরাপদ ইন্টিগ্রেশন।", f2Title: "ইনভেন্টরি অটোমেশন", f2Desc: "স্বয়ংক্রিয় স্টক আপডেট এবং সিঙ্ক।", f3Title: "অ্যাডভান্সড অ্যানালিটিক্স", f3Desc: "রিয়েল-টাইম সেলস ড্যাশবোর্ড এবং কাস্টমার ট্র্যাকিং।", f4Title: "মাল্টি-ভেন্ডর সেটআপ", f4Desc: "দারাজ/অ্যামাজনের মতো মার্কেটপ্লেস তৈরি করুন।", techBadge: "ইকোসিস্টেম ইন্টিগ্রেশন", techTitle1: "প্রযুক্তি এবং", techTitle2: "লজিস্টিকস", techDesc: "নিখুঁত অপারেশন প্রদানের জন্য আমরা সেরা প্ল্যাটফর্ম এবং লজিস্টিক এপিআই ব্যবহার করি।", t1Desc: "খুব দ্রুত কাস্টম স্টোরফ্রন্ট।", t2Desc: "ফ্লেক্সিবল ই-কমার্স।", t3Desc: "স্কেলেবল রিটেইল সলিউশন।", t4Desc: "পাঠাও ও স্টেডফাস্ট অটোমেটেড সিঙ্ক।", ctaTitle: "অনলাইন সেলস স্কেল করতে প্রস্তুত?", ctaDesc: "Dremoy IT-এর উপর ভরসা রাখা ব্র্যান্ডগুলোর সাথে যুক্ত হোন।", ctaBtn1: "হোয়াটসঅ্যাপে চ্যাট করুন", ctaBtn2: "সরাসরি কল করুন", ecomBadge: "ইকোসিস্টেম সুবিধা", ecomTitle: "কেন আপনার একটি সম্পূর্ণ <span class='text-gradient'>ই-কমার্স ইকোসিস্টেম</span> প্রয়োজন?", ecomDesc: "জানুন কীভাবে একটি সাধারণ স্টোর থেকে সম্পূর্ণ ডিজিটাল ইকোসিস্টেমে পরিবর্তন আপনার সেলস বাড়াতে পারে।", eCard1Title: "স্বয়ংক্রিয় অপারেশন", eCard1Desc: "ম্যানুয়াল স্টক আপডেট বন্ধ করুন।", eCard2Title: "বেশি কনভার্সন", eCard2Desc: "অপ্টিমাইজড UI/UX চেকআউট সহজ করে।", eCard3Title: "স্কেলেবল মাল্টি-ভেন্ডর", eCard3Desc: "ছোট থেকে শুরু করে বড় মার্কেটপ্লেসে স্কেল করুন।", eCard4Title: "লজিস্টিকস ইন্টিগ্রেশন", eCard4Desc: "পাঠাও এবং স্টেডফাস্টের সাথে স্বয়ংক্রিয় ট্র্যাকিং।", ecomBtn: "সম্পূর্ণ গাইডটি পড়ুন",
+                ftDesc: "বাংলাদেশের একটি শীর্ষস্থানীয় আইটি ট্রেনিং এবং সফটওয়্যার ডেভেলপমেন্ট কোম্পানি।", ftCourses: "আমাদের কোর্সসমূহ", ftC1: "বেসিক কম্পিউটার কোর্স", ftC2: "প্রফেশনাল অফিস স্কিল", ftC3: "গ্রাফিক্স ডিজাইন", ftC4: "স্পোকেন ইংলিশ", ftLinks: "গুরুত্বপূর্ণ লিংকসমূহ", ftL1: "সিলেবাস", ftL2: "স্টুডেন্ট সাপোর্ট", ftL3: "FAQ", ftL4: "সাকসেস স্টোরি", ftContact: "যোগাযোগ করুন", ftAddress: "হবিরবাড়ী, সীডস্টোর বাজার, ময়মনসিংহ",
+                navHome: "হোম", navOnlineSrv: "সার্ভিসেস", navRoadmap: "রোডম্যাপ", navLocalSrv: "লোকাল", navWhyUs: "কেন আমরা", navBlog: "ব্লগ", navCta: "যোগাযোগ করুন",
+                badgeText: "আপনার এজেন্সি দ্রুত স্কেল করুন",
+                heroTitle1: "গ্রোথ-ড্রিভেন ডিজিটাল", heroTitle2: "সলিউশনের জন্য আপনার", heroTitle3: "বিশ্বস্ত পার্টনার",
+                heroSubtitle: "এআই অটোমেশন দিয়ে আপনার কাজ সহজ করুন, টার্গেটেড মার্কেটিং দিয়ে দ্রুত বড় হোন।",
+                heroBtnWhats: "এখনই শুরু করুন", heroBtnBrowse: "সার্ভিসগুলো দেখুন",
+                trust1: "ডেটা-ড্রিভেন ROI", trust2: "এআই চালিত প্রযুক্তি", trust3: "প্রমাণিত স্ট্র্যাটেজি",
+                pasSecHeading: "কেন অধিকাংশ ডিজিটাল ব্যবসা সফল হয় না",
+                pasSecDesc: "প্রযুক্তিগত বাধা আপনার আয়ের সম্ভাবনা নষ্ট করতে দেবেন না।",
+                pasProbTitle: "\"এজেন্সি হাসল\" লুপে আটকে আছেন?",
+                pasProbDesc: "আপনি দিনে ১৪ ঘণ্টা কাজ করছেন কিন্তু আয় বাড়ছে না। ম্যানুয়াল কাজে আপনার সময় নষ্ট হচ্ছে।",
+                pasAgitTitle: "নষ্ট হওয়া প্রতিটি ঘণ্টা হলো হারানো আয়",
+                pasAgitDesc: "আপনি যখন প্রযুক্তিগত সমস্যা নিয়ে লড়ছেন, প্রতিযোগীরা এআই ব্যবহার করে এগিয়ে যাচ্ছে।",
+                pasSolTitle: "আল্টিমেট গ্রোথ ইনফ্রাস্ট্রাকচার",
+                pasSolDesc: "ছোট খেলা বন্ধ করুন। Dremoy আপনার বৃদ্ধির জন্য প্রযুক্তি তৈরি করে, আপনি শুধু মুনাফা চালান।",
+                onSrvHeading: "প্রিমিয়াম গ্রোথ সার্ভিসেস",
+                onSrvDesc: "আপনার এজেন্সি স্কেল করার জন্য উচ্চ-চাহিদা সম্পন্ন ডিজিটাল সলিউশন।",
+                srv1Title: "আপনার ব্লু টিক পান", srv1Sub: "মেটা ভেরিফাইড (ব্লু টিক) এর জন্য গাইডলাইন", srv1F1: "মেটা ভেরিফাইড অ্যাপ্লিকেশন", srv1F2: "প্রোফাইল/পেজ ভেরিফিকেশন সাপোর্ট", srv1F3: "পরিচয় সহায়তা", srv1F4: "দ্রুত প্রসেসিং সাপোর্ট", srv1Cta: "এখনই ভেরিফাইড হোন",
+                srv2Title: "গ্লোবাল পেমেন্ট গ্রহণ করুন", srv2Sub: "ফ্রিল্যান্সারদের জন্য ভার্চুয়াল কার্ড এবং পেমেন্ট গেটওয়ে", srv2F1: "আন্তর্জাতিক পেমেন্ট সাপোর্ট", srv2F2: "সাবস্ক্রিপশন পেমেন্ট", srv2F3: "অনলাইন শপিং সহায়তা", srv2F4: "ডিজিটাল প্ল্যাটফর্ম পেমেন্ট", srv2Cta: "পেমেন্ট সেটআপ করুন",
+                srv3Title: "আপনার পেজ এনগেজমেন্ট বাড়ান", srv3Sub: "টার্গেটেড অ্যাডস এবং অডিয়েন্স রিসার্চ", srv3F1: "পেজ বুস্ট", srv3F2: "টার্গেটেড অ্যাডস", srv3F3: "অডিয়েন্স রিসার্চ", srv3F4: "এনগেজমেন্ট বৃদ্ধি", srv3F5: "বিজনেস প্রমোশন", srv3Cta: "আমার পেজ বুস্ট করুন",
+                srv4Title: "এআই দিয়ে আপনার কাজ অটোমেট করুন", srv4Sub: "এআই অটোমেশন দিয়ে সপ্তাহে ২০+ ঘণ্টা বাঁচান", srv4F1: "কন্টেন্ট তৈরির জন্য জেনারেটিভ এআই", srv4F2: "এআই অটোমেশন", srv4F3: "চ্যাটবট ডেভেলপমেন্ট", srv4Cta: "এখনই অটোমেট করুন",
+                srv5Title: "শর্ট ভিডিও যা ভাইরাল হয়", srv5Sub: "ইনস্টাগ্রাম, টিকটক এবং ইউটিউবের জন্য রিলস", srv5F1: "কন্টেন্ট প্ল্যানিং", srv5F2: "ভিডিও এডিটিং", srv5F3: "ক্যাপশন লেখা", srv5F4: "শিডিউলিং", srv5Cta: "কন্টেন্ট তৈরি করুন",
+                locSrvHeading: "লোকাল আইটি সার্ভিসেস", locSrvDesc: "লোকালি এক্সপার্ট হার্ডওয়্যার, সফটওয়্যার এবং দৈনন্দিন অপারেশনাল সাপোর্ট।",
+                ls1Title: "পরিচয় নিবন্ধন", ls1Desc: "নতুন নিবন্ধন, সংশোধন এবং ডিজিটাল কপি।",
+                ls2Title: "ক্যারিয়ার অ্যাপ্লিকেশন", ls2Desc: "প্রফেশনাল সিভি ডিজাইন।",
+                ls3Title: "প্রিন্ট লজিস্টিকস", ls3Desc: "উচ্চ মানের প্রিন্টিং এবং স্ক্যানিং।",
+                ls4Title: "সিস্টেম ডিপ্লয়মেন্ট", ls4Desc: "নতুন ওএস ইনস্টলেশন এবং অপ্টিমাইজেশন।",
+                ls5Title: "সফটওয়্যার সুইটস", ls5Desc: "অ্যান্টিভাইরাস এবং এমএস অফিস সেটআপ।",
+                ls6Title: "হার্ডওয়্যার ডায়াগনস্টিকস", ls6Desc: "অ্যাডভান্সড পারফরম্যান্স ফিক্স এবং ট্রাবলশুটিং।",
+                ls7Title: "গভটেক পোর্টাল সাপোর্ট", ls7Desc: "সরকারি পোর্টালে কাজের সহায়তা।",
+                ls8Title: "সিসিটিভি ইনস্টলেশন", ls8Desc: "সম্পূর্ণ সিকিউরিটি ক্যামেরা সেটআপ।",
+                whyBadge: "Dremoy ভ্যালু প্রপোজিশন", whyTitle: "কেন <span class='text-gradient'>Dremoy</span> বেছে নেবেন?", whyDesc: "আমরা শুধু সেবা প্রদান করি না; আমরা আপনার ব্র্যান্ডের জন্য স্কেলেবল গ্রোথ তৈরি করি।",
+                adv1Title: "ডেটা-ড্রিভেন গ্রোথ", adv1Desc: "দ্রুত আরওআই নিশ্চিত করার কৌশল।",
+                adv2Title: "নেক্সট-জেন এআই প্রযুক্তি", adv2Desc: "জেনারেটিভ এআই এবং ইন্টেলিজেন্ট অটোমেশন।",
+                adv3Title: "এন্টারপ্রাইজ সিকিউরিটি", adv3Desc: "আপনার ডিজিটাল সম্পদ সুরক্ষার জন্য ব্যাংক-গ্রেড সিকিউরিটি।",
+                procTitle: "অনবোর্ডিং ওয়ার্কফ্লো",
+                proc1Title: "১. ডিসকভারি কল", proc1Desc: "হোয়াটসঅ্যাপের মাধ্যমে যোগাযোগ করুন।",
+                proc2Title: "২. স্ট্র্যাটেজিক প্ল্যান", proc2Desc: "আপনার জন্য একটি কাস্টম রোডম্যাপ।",
+                proc3Title: "৩. ইমপ্লিমেন্টেশন", proc3Desc: "আমাদের বিশেষজ্ঞরা কাজ সম্পন্ন করেন।",
+                proc4Title: "৪. স্কেল ও সাপোর্ট", proc4Desc: "অবিচ্ছিন্ন মনিটরিং এবং স্কেলিং।",
+                ctaHeading: "আপনার নিচের বাজার দখল করতে প্রস্তুত?", ctaDesc1: "আজই সফল ব্যবসায়ীদের সাথে যোগ দিন যারা Dremoy এর সাথে স্কেল করছে।", ctaBtn: "একজন বিশেষজ্ঞের সাথে কথা বলুন",
+                footerDesc: "প্রিমিয়াম ডিজিটাল সার্ভিসেস এজেন্সি যা গ্লোবাল স্ট্যান্ডার্ডের সাথে লোকাল দক্ষতার সমন্বয় করে।"
+            }
+        };
+
+        let currentLang = 'en';
+
+        function setLang(lang) {
+            currentLang = lang;
+            document.documentElement.lang = lang;
+
+            if (lang === 'bn') {
+                document.body.classList.add('lang-bn');
+                document.getElementById('currentLang').innerText = 'বাংলা';
+                document.getElementById('mobileLangBtn').innerText = 'EN';
+            } else {
+                document.body.classList.remove('lang-bn');
+                document.getElementById('currentLang').innerText = 'English';
+                document.getElementById('mobileLangBtn').innerText = 'BN';
+            }
+
+            document.querySelectorAll('[data-i18n]').forEach(element => {
+                const key = element.getAttribute('data-i18n');
+                if (translations[lang] && translations[lang][key]) {
+                    element.innerHTML = translations[lang][key];
+                }
+            });
+        }
+
+        function toggleLang() {
+            setLang(currentLang === 'en' ? 'bn' : 'en');
+        }
+
+        // Initialize translation
+        setLang('bn');
+
+        // Scroll Reveal Animation
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 50;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+        reveal();
+
+        
+        // Mobile Menu Toggle with Backdrop
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        if (mobileMenuBtn && mobileMenu) {
+            const backdrop = document.createElement('div');
+            backdrop.className = 'fixed inset-0 bg-black/50 backdrop-blur-sm z-40 hidden opacity-0 transition-opacity duration-300';
+            document.body.appendChild(backdrop);
+
+            const toggleMenu = () => {
+                const isHidden = mobileMenu.classList.contains('hidden');
+                if (isHidden) {
+                    mobileMenu.classList.remove('hidden');
+                    backdrop.classList.remove('hidden');
+                    setTimeout(() => backdrop.classList.remove('opacity-0'), 10);
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    mobileMenu.classList.add('hidden');
+                    backdrop.classList.add('opacity-0');
+                    setTimeout(() => backdrop.classList.add('hidden'), 300);
+                    document.body.style.overflow = '';
+                }
+            };
+
+            mobileMenuBtn.addEventListener('click', toggleMenu);
+            backdrop.addEventListener('click', toggleMenu);
+            
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (!mobileMenu.classList.contains('hidden')) toggleMenu();
+                });
+            });
+        }
+
+    </script>
+
+    <!-- Enrollment Modal Popup -->
+    <div id="enrollModal" class="fixed inset-0 z-[100] hidden items-center justify-center">
+        <!-- Backdrop -->
+        <div class="absolute inset-0 bg-slate-900/60 backdrop-blur-md" onclick="closeEnrollModal()"></div>
+
+        <!-- Modal Content -->
+        <div class="relative w-full max-w-md mx-4 bg-white/95 backdrop-blur-xl rounded-3xl shadow-2xl border border-white/40 overflow-hidden"
+            id="enrollModalContent">
+            <!-- Glow Effect -->
+            <div
+                class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-32 bg-gradient-to-b from-blue-500/20 to-transparent pointer-events-none">
+            </div>
+
+            <div class="p-8 relative z-10">
+                <!-- Header -->
+                <div class="flex justify-between items-center mb-6">
+                    <h3 class="text-2xl font-extrabold text-gray-900 flex items-center gap-2">
+                        <i class="fas fa-user-graduate text-blue-600"></i> ভর্তি ফর্ম
+                    </h3>
+                    <button onclick="closeEnrollModal()"
+                        class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 text-gray-500 hover:bg-gray-200 hover:text-gray-800 transition-colors">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+
+                <!-- Success Message (Hidden by default) -->
+                <div id="enrollSuccess" class="hidden flex-col items-center justify-center py-8 text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-check text-3xl text-green-500"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-2">আবেদন সফল হয়েছে!</h4>
+                    <p class="text-gray-500 text-sm mb-6">আপনাকে WhatsApp এ রিডাইরেক্ট করা হচ্ছে...</p>
+                    <div class="w-6 h-6 border-2 border-green-500 border-t-transparent rounded-full animate-spin"></div>
+                </div>
+
+                <!-- Form -->
+                <form id="enrollForm" onsubmit="handleEnrollSubmit(event)" class="space-y-4">
+                    <!-- Name -->
+                    <div class="relative group">
+                        <div
+                            class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-gray-400 group-focus-within:text-blue-500 transition-colors">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <input type="text" id="enrollName" name="name" required placeholder="আপনার পুরো নাম"
+                            class="w-full pl-11 pr-4 py-3.5 bg-gray-50/50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 focus:bg-white transition-all text-gray-900 text-sm placeholder-gray-400">
+                    </div>
+
+                    <!-- Email -->
+                    <div class="relative group">
+                        <div
+                            class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-gray-400 group-focus-within:text-blue-500 transition-colors">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <input type="email" id="enrollEmail" name="email" required placeholder="আপনার ইমেইল এড্রেস"
+                            class="w-full pl-11 pr-4 py-3.5 bg-gray-50/50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 focus:bg-white transition-all text-gray-900 text-sm placeholder-gray-400">
+                    </div>
+
+                    <!-- Mobile -->
+                    <div class="relative group">
+                        <div
+                            class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-gray-400 group-focus-within:text-blue-500 transition-colors">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <input type="tel" id="enrollPhone" name="phone" required placeholder="মোবাইল নাম্বার"
+                            class="w-full pl-11 pr-4 py-3.5 bg-gray-50/50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 focus:bg-white transition-all text-gray-900 text-sm placeholder-gray-400">
+                    </div>
+
+                    <!-- WhatsApp -->
+                    <div class="relative group">
+                        <div
+                            class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-gray-400 group-focus-within:text-green-500 transition-colors">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <input type="tel" id="enrollWhatsapp" name="whatsapp" placeholder="WhatsApp নাম্বার (যদি থাকে)"
+                            class="w-full pl-11 pr-4 py-3.5 bg-gray-50/50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-green-500/50 focus:border-green-500 focus:bg-white transition-all text-gray-900 text-sm placeholder-gray-400">
+                    </div>
+
+                    <!-- Course -->
+                    <div class="relative group">
+                        <div
+                            class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-gray-400 group-focus-within:text-purple-500 transition-colors">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <select id="enrollCourse" name="course" required
+                            class="w-full pl-11 pr-10 py-3.5 bg-gray-50/50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-purple-500/50 focus:border-purple-500 focus:bg-white transition-all text-gray-900 text-sm appearance-none">
+                            <option value="" disabled selected>কোর্স নির্বাচন করুন</option>
+                            <option value="৩ মাসের বেসিক কোর্স">৩ মাসের বেসিক কোর্স</option>
+                            <option value="৬ মাসের প্রফেশনাল কোর্স">৬ মাসের প্রফেশনাল কোর্স</option>
+                            <option value="Professional & AI Bundle">Professional & AI Bundle</option>
+                            <option value="Dropshipping Business">Dropshipping Business</option>
+                        </select>
+                        <div
+                            class="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none text-gray-400">
+                            <i class="fas fa-chevron-down text-xs"></i>
+                        </div>
+                    </div>
+
+                    <!-- Goal -->
+                    <div class="relative group">
+                        <div
+                            class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-gray-400 group-focus-within:text-indigo-500 transition-colors">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <select id="enrollGoal" name="goal" required
+                            class="w-full pl-11 pr-10 py-3.5 bg-gray-50/50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500 focus:bg-white transition-all text-gray-900 text-sm appearance-none">
+                            <option value="" disabled selected>আপনার লক্ষ্য কি?</option>
+                            <option value="চাকরি">চাকরি</option>
+                            <option value="ফ্রিল্যান্সিং">ফ্রিল্যান্সিং</option>
+                            <option value="অফিস স্কিল">অফিস স্কিল</option>
+                            <option value="AI Tools শেখা">AI Tools শেখা</option>
+                            <option value="ব্যবসার উন্নতি">ব্যবসার উন্নতি</option>
+                        </select>
+                        <div
+                            class="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none text-gray-400">
+                            <i class="fas fa-chevron-down text-xs"></i>
+                        </div>
+                    </div>
+
+                    <!-- Submit -->
+                    <button type="submit" id="enrollSubmitBtn"
+                        class="w-full py-4 mt-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-xl shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 transform hover:-translate-y-0.5 transition-all text-base flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed">
+                        <span id="enrollBtnText">ভর্তি আবেদন পাঠান</span>
+                        <i id="enrollBtnIcon" class="fas fa-paper-plane text-sm"></i>
+                    </button>
+
+                    <!-- Trust -->
+                    <div class="pt-3 flex items-center justify-center gap-2 text-xs text-gray-500 font-medium">
+                        <i class="fas fa-lock text-gray-400"></i>
+                        <span class="text-center leading-tight">আপনার তথ্য নিরাপদ থাকবে এবং শুধুমাত্র যোগাযোগের জন্য
+                            ব্যবহার করা হবে।</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<script>
+        // Enrollment Modal Logic
+        const enrollModal = document.getElementById('enrollModal');
+        const enrollModalContent = document.getElementById('enrollModalContent');
+        const enrollForm = document.getElementById('enrollForm');
+        const enrollSuccess = document.getElementById('enrollSuccess');
+        const courseSelect = document.getElementById('enrollCourse');
+
+        function openEnrollModal(e, courseName = null) {
+            if (e) e.preventDefault();
+
+            if (courseName) {
+                courseSelect.value = courseName;
+            }
+
+            enrollModal.classList.remove('hidden');
+            enrollModal.classList.add('flex');
+        }
+
+        function closeEnrollModal() {
+            enrollModal.classList.add('hidden');
+            enrollModal.classList.remove('flex');
+
+            // Reset form state on close
+            enrollForm.classList.remove('hidden');
+            enrollSuccess.classList.add('hidden');
+            enrollForm.reset();
+        }
+
+        function handleEnrollSubmit(e) {
+            e.preventDefault();
+
+            const submitBtn = document.getElementById('enrollSubmitBtn');
+            const btnText = document.getElementById('enrollBtnText');
+            const btnIcon = document.getElementById('enrollBtnIcon');
+
+            // UI Loading State
+            submitBtn.disabled = true;
+            btnText.innerText = "প্রসেস হচ্ছে...";
+            btnIcon.className = "fas fa-spinner fa-spin text-sm";
+
+            // Get form values
+            const name = document.getElementById('enrollName').value;
+            const phone = document.getElementById('enrollPhone').value;
+            const wpPhone = document.getElementById('enrollWhatsapp').value;
+            const course = document.getElementById('enrollCourse').value;
+            const goal = document.getElementById('enrollGoal').value;
+
+            const wpText = wpPhone ? wpPhone : 'দেওয়া হয়নি';
+
+            // Prepare dynamic WhatsApp message
+            const message = `আসসালামু আলাইকুম, আমি আপনাদের কোর্সে ভর্তি হতে আগ্রহী।\n\n*আমার তথ্য:*\nনাম: ${name}\nমোবাইল: ${phone}\nWhatsApp: ${wpText}\nকোর্স: ${course}\nলক্ষ্য: ${goal}`;
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappUrl = `https://wa.me/+8801622536026?text=${encodedMessage}`;
+
+            // ---- Google Sheets Setup ----
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbysVrCawaCL4CdlzM-ytGChIFhewioZjhR9C9m_vLMebL3xfiAifLshcahTUSR6HOb37w/exec';
+
+            const finalizeSubmission = () => {
+                // Show Success UI in Modal
+                enrollForm.classList.add('hidden');
+                enrollSuccess.classList.remove('hidden');
+                enrollSuccess.classList.add('flex');
+
+                // Redirect to WhatsApp with the pre-filled message
+                window.open(whatsappUrl, '_blank');
+
+                // Reset modal state in the background
+                setTimeout(() => {
+                    closeEnrollModal();
+                    submitBtn.disabled = false;
+                    btnText.innerText = "ভর্তি আবেদন পাঠান";
+                    btnIcon.className = "fas fa-paper-plane text-sm";
+                }, 1500);
+            };
+
+            if (scriptURL && scriptURL !== '') {
+                const formData = new FormData(enrollForm);
+                const date = new Date().toLocaleDateString('en-GB');
+                formData.append('Date', date);
+
+                // Convert FormData to URLSearchParams for Google Apps Script
+                const urlEncodedData = new URLSearchParams(formData).toString();
+
+                // Send request with no-cors to prevent browser blocking
+                fetch(scriptURL, {
+                    method: 'POST',
+                    body: urlEncodedData,
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    mode: 'no-cors'
+                })
+                    .then(() => {
+                        finalizeSubmission();
+                    })
+                    .catch(error => {
+                        console.error('Error saving to Google Sheets!', error);
+                        finalizeSubmission();
+                    });
+            } else {
+                setTimeout(finalizeSubmission, 800);
+            }
+        }
+
+
+</script>
+    <!-- Chatbot Integration -->
+    <link rel="stylesheet" href="../chatbot.css">
+    <script src="../chatbot.js"></script>
+</body>
+
+</html>
+
+
+
