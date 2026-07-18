@@ -1504,4 +1504,12 @@ body {
     align-items: center;
 }
 
+/* Custom placeholder opacity adjustment to make them less transparent */
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+    color: #64748b !important;
+    opacity: 0.8 !important; /* Reduces transparency, making it more visible */
+}
+
 
